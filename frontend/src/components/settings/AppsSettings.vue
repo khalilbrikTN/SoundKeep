@@ -69,7 +69,7 @@
         </form>
         <p v-else-if="info" class="text-sm font-semibold">{{ info.name }}</p>
         <p v-if="info" class="text-[12px] text-faint">
-          {{ t('apps.serverId', { id: info.server_id }) }} · Downtify
+          {{ t('apps.serverId', { id: info.server_id }) }} · Soundkeep
           {{ info.version }}
         </p>
       </SettingRow>

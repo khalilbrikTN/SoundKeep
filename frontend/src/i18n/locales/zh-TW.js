@@ -222,7 +222,7 @@ export default {
     search: '搜尋「{query}」',
     website: '官方網站',
     failed: '無法在商店中查詢。',
-    note: 'Bandcamp 會將每筆銷售的大部分收入交給藝人。這些只是一般連結：Downtify 不販售任何東西，也不會從中獲利。',
+    note: 'Bandcamp 會將每筆銷售的大部分收入交給藝人。這些只是一般連結：Soundkeep 不販售任何東西，也不會從中獲利。',
   },
   playlistSearch: {
     placeholder: '搜尋這份播放清單',
@@ -330,7 +330,7 @@ export default {
       '搜尋 YouTube Music，或貼上歌曲、專輯或播放清單的 Spotify 或 YouTube Music 連結。',
     step2Title: '下載音樂',
     step2Body:
-      'Downtify 會取得音訊，並為每個檔案寫入標題、藝人、專輯、封面和歌詞。',
+      'Soundkeep 會取得音訊，並為每個檔案寫入標題、藝人、專輯、封面和歌詞。',
     step3Title: '隨處聆聽',
     step3Body:
       '可以直接在這裡播放、用播放清單監控保持同步，或讓 Jellyfin、Plex、Navidrome 讀取你的媒體庫。',
@@ -360,7 +360,7 @@ export default {
     typeSingle: '單曲',
     typeEp: 'EP',
     unsupportedLink:
-      'Downtify 無法下載這個連結。請貼上 Spotify 歌曲、專輯或播放清單、YouTube Music 連結，或 SoundCloud 歌曲。',
+      'Soundkeep 無法下載這個連結。請貼上 Spotify 歌曲、專輯或播放清單、YouTube Music 連結，或 SoundCloud 歌曲。',
     tipSearchTitle: '依名稱搜尋',
     tipSearchBody: '輸入藝人、專輯或歌曲，結果來自 YouTube Music。',
     tipSpotifyTitle: '貼上 Spotify 連結',
@@ -507,7 +507,7 @@ export default {
     },
     pausedTitle: '下載已暫停',
     pausedBody: '繼續之前不會開始新的下載。',
-    pausedKept: '等待中的歌曲會留在佇列裡，Downtify 重新啟動或更新後也一樣。',
+    pausedKept: '等待中的歌曲會留在佇列裡，Soundkeep 重新啟動或更新後也一樣。',
     emptyTitle: '佇列是空的',
     emptyBody: '搜尋音樂或貼上連結，下載項目就會顯示在這裡。',
     emptyAction: '尋找音樂',
@@ -579,7 +579,7 @@ export default {
     noMatchesHint: '試試其他篩選條件。',
     clearFilters: '清除篩選條件',
     loadFailed: '無法載入媒體庫',
-    loadFailedHint: '請確認 Downtify 正在執行，然後再試一次。',
+    loadFailedHint: '請確認 Soundkeep 正在執行，然後再試一次。',
     maybeDeleted: '可能已被刪除或重新命名。',
     backToLibrary: '返回媒體庫',
     selectAll: '全選',
@@ -621,7 +621,7 @@ export default {
     replaceAudio: '使用已驗證的 Deemix 錄音版本',
     replaceAudioHint:
       '藝人、標題和專輯必須完全相符。音樂會保留在 Deemix 資料夾中。比對結果不明確時不會更動原始檔案。這次掃描會取代音訊，而不是重新寫入標籤。',
-    deleteOriginals: '匯入後移除 Downtify 的舊音訊',
+    deleteOriginals: '匯入後移除 Soundkeep 的舊音訊',
     deleteOriginalsHint:
       '只有在播放清單、喜歡記錄和播放參照都更新後，才會移除每個已驗證的原始檔案。外部檔案和附屬檔案不會被移除。',
     replacementProgress:
@@ -632,7 +632,7 @@ export default {
     title: '升級媒體庫',
     subtitle: '改善已下載的音樂，不必重新下載。',
     intro:
-      'Downtify 會檢查媒體庫中的每首歌曲，修復舊版本留下的問題，例如封面太小、缺少歌詞、標籤不完整。',
+      'Soundkeep 會檢查媒體庫中的每首歌曲，修復舊版本留下的問題，例如封面太小、缺少歌詞、標籤不完整。',
     audioNote:
       '音訊檔案不會被取代：這裡只更新封面、歌詞和標籤。從錯誤來源下載的歌曲會維持原樣，請刪除後重新下載。',
     safeNote:
@@ -661,7 +661,7 @@ export default {
     lyricsHint: '透過你的提供者清單查詢沒有歌詞的歌曲，並嵌入找到的歌詞。',
     metadata: '更新標籤',
     metadataHint:
-      '從 Spotify 補上專輯、專輯藝人、發行日期和曲目編號。僅適用於 Downtify 仍記得對應 Spotify 歌曲的項目。',
+      '從 Spotify 補上專輯、專輯藝人、發行日期和曲目編號。僅適用於 Soundkeep 仍記得對應 Spotify 歌曲的項目。',
     tracksAffected: { one: '{count} 首歌曲', other: '{count} 首歌曲' },
     options: '選項',
     artworkMin: '升級小於此尺寸的封面',
@@ -674,7 +674,7 @@ export default {
     preferYoutube: '優先使用 YouTube Music',
     recheck: '歌曲檢查後，多久內不再檢查',
     recheckHint:
-      '剛檢查過的歌曲會在下次掃描時略過。Downtify 更新到新版本後，一律會重新檢查全部歌曲。',
+      '剛檢查過的歌曲會在下次掃描時略過。Soundkeep 更新到新版本後，一律會重新檢查全部歌曲。',
     recheckDays: { one: '{count} 天', other: '{count} 天' },
     recheckNever: '每次都檢查所有歌曲',
     start: '開始升級',
@@ -743,7 +743,7 @@ export default {
     estimatedNote:
       '{date} 之前的大小是根據媒體庫現有歌曲的日期估算，因此不含之後刪除的歌曲。',
     allEstimatedNote:
-      'Downtify 從現在起每小時記錄一次媒體庫大小。更早的日期是根據媒體庫現有歌曲的日期估算。',
+      'Soundkeep 從現在起每小時記錄一次媒體庫大小。更早的日期是根據媒體庫現有歌曲的日期估算。',
     addedPerDay: '每日新增',
     addedPerWeek: '每週新增',
     sourcesTitle: '依來源',
@@ -780,10 +780,10 @@ export default {
     perWeek: '每週',
     downloadedBySource: '依來源統計下載量 · {size}',
     noDownloads: '此期間沒有下載任何內容。',
-    logEmptyNote: '尚未計入任何下載：Downtify 從這個版本開始統計。',
+    logEmptyNote: '尚未計入任何下載：Soundkeep 從這個版本開始統計。',
     logSinceNote: '下載次數從 {date} 開始統計。',
     cleanupTitle: '可以清理的項目',
-    cleanupHint: 'Downtify 判斷為多餘或殘留的儲存空間。這裡不會刪除任何檔案。',
+    cleanupHint: 'Soundkeep 判斷為多餘或殘留的儲存空間。這裡不會刪除任何檔案。',
     duplicatesTitle: '重複的歌曲',
     duplicatesHint:
       '{exact} 首以相同檔案儲存了兩次，{likely} 首可能是其他來源的同一首歌曲。顯示的大小是只保留最大副本時可釋放的空間。',
@@ -793,7 +793,7 @@ export default {
     },
     workingTitle: 'slskd 工作副本',
     workingHint:
-      'Downtify 複製到媒體庫後，留在 slskd 資料夾中的 Soulseek 傳輸檔案。',
+      'Soundkeep 複製到媒體庫後，留在 slskd 資料夾中的 Soulseek 傳輸檔案。',
     workingInPlace:
       'slskd 檔案會留在原處，因此 slskd 資料夾也是媒體庫的一部分。',
     leftoversTitle: '殘留的暫存檔案',
@@ -801,7 +801,7 @@ export default {
     orphansTitle: '孤立的附屬檔案',
     orphansHint: '歌曲已不存在的歌詞檔和專輯封面。',
     foldersTitle: '資料夾',
-    foldersHint: 'Downtify 寫入的資料夾內所有內容，依類型分類。',
+    foldersHint: 'Soundkeep 寫入的資料夾內所有內容，依類型分類。',
     rescan: '重新掃描',
     scanFailed: '無法掃描資料夾。',
     scanning: '正在掃描資料夾…',
@@ -906,7 +906,7 @@ export default {
       unavailable: '這份播放清單無法進行診斷。',
       items: {
         spotify_tracks: 'Spotify 歌曲',
-        downloaded: 'Downtify 已下載',
+        downloaded: 'Soundkeep 已下載',
         physical_files: '找到的實體檔案',
         track_index: 'TrackIndex 對應',
         monitor_history: '監控記錄',
@@ -1024,8 +1024,8 @@ export default {
     karaoke: '卡拉OK',
     karaokeWindow: '在新視窗中開啟',
     karaokeWindowBlocked:
-      '瀏覽器封鎖了新視窗。請允許 Downtify 的彈出式視窗後再試一次。',
-    karaokeWaiting: '正在等待 Downtify 主視窗播放歌曲',
+      '瀏覽器封鎖了新視窗。請允許 Soundkeep 的彈出式視窗後再試一次。',
+    karaokeWaiting: '正在等待 Soundkeep 主視窗播放歌曲',
     fullscreen: '全螢幕',
     details: '詳細資訊',
     playing: '播放中',
@@ -1222,8 +1222,8 @@ export default {
     tileSharedHint: '{size}，其他監看項目也有，只儲存一份',
     tileFailing: '持續失敗',
     unknownNote: {
-      one: '{count} 首歌曲是在 Downtify 開始記錄歌曲來源之前加入的。',
-      other: '{count} 首歌曲是在 Downtify 開始記錄歌曲來源之前加入的。',
+      one: '{count} 首歌曲是在 Soundkeep 開始記錄歌曲來源之前加入的。',
+      other: '{count} 首歌曲是在 Soundkeep 開始記錄歌曲來源之前加入的。',
     },
     missingNote: {
       one: '這個監看項目記錄的 {count} 首歌曲已不在磁碟上。',
@@ -1251,8 +1251,8 @@ export default {
       other: '{count} 首來自首次檢查',
     },
     periodUnknown: {
-      one: '其中 {count} 首是在 Downtify 開始記錄來源之前加入的',
-      other: '其中 {count} 首是在 Downtify 開始記錄來源之前加入的',
+      one: '其中 {count} 首是在 Soundkeep 開始記錄來源之前加入的',
+      other: '其中 {count} 首是在 Soundkeep 開始記錄來源之前加入的',
     },
     barsPerDay: '每日新歌曲數',
     barsPerWeek: '每週新歌曲數',
@@ -1282,7 +1282,7 @@ export default {
     body: '把這首歌曲帶進媒體庫的播放清單監控項目。',
     failed: '無法載入這首歌曲的來源。',
     firstTitle: '最早由此下載',
-    none: '沒有監看項目下載過這首歌曲：它是手動下載的，或是在 Downtify 開始記錄之前下載的。',
+    none: '沒有監看項目下載過這首歌曲：它是手動下載的，或是在 Soundkeep 開始記錄之前下載的。',
     otherAccount: '其他帳號的監看項目',
     backfill: '首次檢查',
     estimated: '可能',
@@ -1333,7 +1333,7 @@ export default {
     detach: '中斷來源連結',
     detachTitle: '要中斷「{name}」與來源的連結嗎？',
     detachBody:
-      '你將可以新增和移除歌曲。現有歌曲維持不變，但 Downtify 不會再讓它與 Spotify 或 YouTube Music 保持同步，若有監看項目也會一併移除。',
+      '你將可以新增和移除歌曲。現有歌曲維持不變，但 Soundkeep 不會再讓它與 Spotify 或 YouTube Music 保持同步，若有監看項目也會一併移除。',
     detached: '現在可以編輯「{name}」了',
     by: '由 {owner} 建立',
     sharedWithCount: {
@@ -1351,7 +1351,7 @@ export default {
   settings: {
     apps: '應用程式',
     title: '設定',
-    subtitle: 'Downtify 如何尋找、下載音樂並寫入標籤。',
+    subtitle: 'Soundkeep 如何尋找、下載音樂並寫入標籤。',
     sections: '分類',
     general: '一般',
     sources: '音訊來源',
@@ -1414,7 +1414,7 @@ export default {
       '將音訊、封面和歌詞保留在共用的 Deemix 資料夾中，不重新寫入標籤。請在伺服器上設定私人 ARL 檔案，不要貼在這裡。',
     deemixUrl: 'Deemix 伺服器 URL',
     deemixRemote: 'Deemix 內的下載資料夾',
-    deemixLocal: 'Downtify 內的同一資料夾（支援唯讀）',
+    deemixLocal: 'Soundkeep 內的同一資料夾（支援唯讀）',
     deemixQuality: '音質',
     slskdTitle: 'slskd',
     slskdFormats: '格式優先順序',
@@ -1438,7 +1438,7 @@ export default {
     slskdUrl: '伺服器 URL',
     slskdKey: 'API 金鑰',
     slskdFolder: 'slskd 下載資料夾',
-    slskdFolderHint: 'Downtify 容器內的路徑，不是主機上的路徑。',
+    slskdFolderHint: 'Soundkeep 容器內的路徑，不是主機上的路徑。',
     slskdTimeout: '總逾時時間',
     slskdQueuedTimeout: '排隊逾時時間',
     slskdInPlace: '將檔案留在 slskd 資料夾',
@@ -1524,7 +1524,7 @@ export default {
     lyricsNeteaseHint: '曲庫龐大，通常有時間同步歌詞',
     navidromeTitle: 'Navidrome',
     navidromeHint:
-      '將下載的播放清單同步到 Navidrome。Navidrome 的音樂資料夾必須包含 Downtify 的下載內容。',
+      '將下載的播放清單同步到 Navidrome。Navidrome 的音樂資料夾必須包含 Soundkeep 的下載內容。',
     navidromeEnabled: '使用 Navidrome',
     navidromeEnabledHint: '需要伺服器 URL、使用者名稱和密碼。',
     navidromeUrl: '伺服器 URL',
@@ -1533,19 +1533,19 @@ export default {
     navidromeAdminUser: '管理員使用者名稱',
     navidromeAdminPassword: '管理員密碼',
     navidromeAdminHint:
-      '選填。讓 Downtify 可以啟動媒體庫掃描，新歌曲就能更快出現。',
+      '選填。讓 Soundkeep 可以啟動媒體庫掃描，新歌曲就能更快出現。',
     test: {
       connection_not_deemix: '這台伺服器不是相容的 Deemix 執行個體。',
       quality_unavailable: '這個 Deezer 帳號無法串流所要求的音質。',
       button: '測試連線',
       testing: '測試中…',
       needFields: '請先填寫上方欄位。',
-      requestFailed: '無法執行測試。Downtify 還連得上嗎？',
+      requestFailed: '無法執行測試。Soundkeep 還連得上嗎？',
       connected: '已連線到 {server}。',
       unknown: '測試傳回了非預期的回應（{code}）。',
       config_missing: '請先填寫必填欄位。',
       connection_unreachable:
-        '無法連線到 {url}。請檢查網址，並確認伺服器正在執行，且 Downtify 能連線到它。',
+        '無法連線到 {url}。請檢查網址，並確認伺服器正在執行，且 Soundkeep 能連線到它。',
       connection_timeout: '{url} 未及時回應。',
       connection_bad_url: '網址無效，開頭須為 http:// 或 https://。',
       connection_tls:
@@ -1560,9 +1560,9 @@ export default {
       auth_api_error: 'Navidrome 回應：{detail}',
       soulseek_ok: 'slskd 已登入 Soulseek。',
       soulseek_offline: 'slskd 尚未登入 Soulseek，登入前找不到任何內容。',
-      folder_ok: 'Downtify 可以讀取 {detail}。',
+      folder_ok: 'Soundkeep 可以讀取 {detail}。',
       folder_missing:
-        'Downtify 無法讀取 {detail}。這必須是 slskd 的下載資料夾，並掛載到此容器中。',
+        'Soundkeep 無法讀取 {detail}。這必須是 slskd 的下載資料夾，並掛載到此容器中。',
       scan_ok: '這個帳號可以啟動媒體庫掃描。',
       scan_not_admin:
         '這個帳號無法啟動媒體庫掃描，Navidrome 只允許管理員執行。請填寫管理員使用者名稱和密碼，新歌曲才能更快出現。',
@@ -1583,7 +1583,7 @@ export default {
       '將擷取的封面存在磁碟上，讓媒體庫載入更快。會佔用額外空間。',
     reconcile: '修正媒體庫路徑',
     reconcileHint:
-      '在 Downtify 之外移動或重新命名過檔案嗎？這會更新已儲存的路徑，並在開啟相關功能時重寫 M3U 和 Navidrome 播放清單。',
+      '在 Soundkeep 之外移動或重新命名過檔案嗎？這會更新已儲存的路徑，並在開啟相關功能時重寫 M3U 和 Navidrome 播放清單。',
     reconcileButton: '修正路徑',
     reconcilePaths: {
       one: '已更新 {count} 個路徑。',
@@ -1604,7 +1604,7 @@ export default {
     externalLibraryHint:
       '你現有的音訊資料夾。檔案會留在原處。同步時會讀取標籤，缺少時也會取得歌詞和封面（與下載時相同），並歸類到對應的藝人。在 Docker 中，請使用容器內的路徑並掛載主機資料夾。',
     externalLibraryFolder: '資料夾',
-    externalLibraryFolderHint: 'Downtify 容器內的路徑，不是主機上的路徑。',
+    externalLibraryFolderHint: 'Soundkeep 容器內的路徑，不是主機上的路徑。',
     externalLibraryPlaceholder: '/music/collection',
     externalLibraryAdd: '新增資料夾',
     externalLibraryRemove: '移除資料夾',
@@ -1651,7 +1651,7 @@ export default {
     version: '版本 {version}',
     upToDate: '已是最新版本',
     source: '原始碼',
-    sourceHint: 'Downtify 是開源軟體。',
+    sourceHint: 'Soundkeep 是開源軟體。',
     docs: '說明文件',
     docsHint: '安裝、設定和 API 參考資料。',
     openDocs: '開啟說明文件',
@@ -1664,7 +1664,7 @@ export default {
     networkHint: '這台伺服器的連線方式。只有管理員看得到。',
     experimental: '實驗性功能',
     experimentalHint:
-      '行動應用程式仍在開發中。Android 應用程式尚未發布，配對和串流的方式在不同 Downtify 版本間仍可能變更。',
+      '行動應用程式仍在開發中。Android 應用程式尚未發布，配對和串流的方式在不同 Soundkeep 版本間仍可能變更。',
   },
   shortcuts: {
     title: '鍵盤快速鍵',
@@ -1687,7 +1687,7 @@ export default {
     help: '顯示快速鍵',
   },
   auth: {
-    signInTitle: '登入 Downtify',
+    signInTitle: '登入 Soundkeep',
     signInBody: '請使用你的使用者名稱和密碼登入。',
     signInBodyOidcOnly: '請使用你的身分提供者登入。',
     username: '使用者名稱',
@@ -1700,7 +1700,7 @@ export default {
     tooMany: '嘗試次數過多，請等幾分鐘後再試一次。',
     forgotHint:
       '忘記管理員密碼了嗎？請在伺服器上執行「python main.py auth-reset」。',
-    noticeTitle: 'Downtify 現在有使用者帳號了',
+    noticeTitle: 'Soundkeep 現在有使用者帳號了',
     noticeBody:
       '現在每個人都要用使用者名稱和密碼登入，管理員可以在「設定 → 使用者」為其他人新增帳號。請使用以下方式登入：',
     noticeKeptPassword: '你之前設定的密碼',
@@ -1709,7 +1709,7 @@ export default {
   },
   apps: {
     serverGroup: '這台伺服器',
-    serverGroupHint: 'Downtify 應用程式看到的伺服器資訊。',
+    serverGroupHint: 'Soundkeep 應用程式看到的伺服器資訊。',
     serverName: '伺服器名稱',
     serverNameHint: '顯示在應用程式中，以及應用程式在網路上尋找伺服器時。',
     serverId: '伺服器 ID {id}',
@@ -1731,7 +1731,7 @@ export default {
     signOutEverywhereTitle: '要登出所有裝置嗎？',
     pairTitle: '配對手機',
     pairBody:
-      '在 Downtify 應用程式中選擇「Scan the code」，然後將相機對準這裡。',
+      '在 Soundkeep 應用程式中選擇「Scan the code」，然後將相機對準這裡。',
     qrLabel: '配對用 QR Code',
     orTypeCode: '或輸入這組配對碼',
     expiresIn: '{time} 後到期',
@@ -1782,7 +1782,7 @@ export default {
   },
   port: {
     label: '連接埠',
-    hint: 'Downtify 監聽的連接埠。會在伺服器啟動時生效，也可以按「儲存並重新啟動」立即生效。',
+    hint: 'Soundkeep 監聽的連接埠。會在伺服器啟動時生效，也可以按「儲存並重新啟動」立即生效。',
     locked: '由伺服器上的 {source} 設定。移除後才能在這裡選擇連接埠。',
     save: '儲存',
     saveRestart: '儲存並重新啟動',
@@ -1791,17 +1791,17 @@ export default {
     saved: '連接埠 {port} 已儲存，下次啟動時生效',
     invalid: '請使用 {min} 到 {max} 之間的連接埠',
     dockerWarning:
-      'Downtify 在 Docker 中執行：請將連接埠對應改成相同的連接埠（ports: NEW:NEW）並重新建立容器，或使用 network_mode: host，否則會無法連線到 Downtify。設定 DOWNTIFY_PORT 會改回舊的連接埠。',
+      'Soundkeep 在 Docker 中執行：請將連接埠對應改成相同的連接埠（ports: NEW:NEW）並重新建立容器，或使用 network_mode: host，否則會無法連線到 Soundkeep。設定 DOWNTIFY_PORT 會改回舊的連接埠。',
     proxyWarning:
-      '你是透過其他位址（反向代理或連接埠對應）連線到 Downtify：請將該位址也指向新的連接埠。',
+      '你是透過其他位址（反向代理或連接埠對應）連線到 Soundkeep：請將該位址也指向新的連接埠。',
     confirmTitle: '要在連接埠 {port} 重新啟動嗎？',
     confirmBody:
       '進行中的下載會停止，所有頁面和應用程式都會以新的連接埠重新連線。',
     restartingTitle: '正在連接埠 {port} 重新啟動',
-    restartingBody: '正在等候 Downtify 恢復連線…這個頁面會自動開啟新的位址。',
+    restartingBody: '正在等候 Soundkeep 恢復連線…這個頁面會自動開啟新的位址。',
     unreachable:
-      'Downtify 尚未在新的連接埠回應。請試試新的位址，或查看伺服器記錄。',
-    openNew: 'Downtify 正在重新啟動。請在新的位址開啟：',
+      'Soundkeep 尚未在新的連接埠回應。請試試新的位址，或查看伺服器記錄。',
+    openNew: 'Soundkeep 正在重新啟動。請在新的位址開啟：',
   },
   account: {
     title: '帳號',
@@ -1825,7 +1825,7 @@ export default {
     needsAdmin: '只有管理員可以執行此操作',
     defaultPasswordTitle: '變更預設密碼',
     defaultPasswordBody:
-      '{name} 正以預設密碼登入，任何熟悉 Downtify 的人都知道這組密碼。請在「設定 → 一般」中變更。',
+      '{name} 正以預設密碼登入，任何熟悉 Soundkeep 的人都知道這組密碼。請在「設定 → 一般」中變更。',
     later: '稍後',
     changePassword: '變更密碼',
   },
@@ -2025,7 +2025,7 @@ export default {
     kicker: 'Podcast',
     notFound: '已不再訂閱這個節目',
     noEpisodesTitle: '還沒有單集',
-    noEpisodesBody: 'Downtify 會依排程檢查這個訂閱來源。',
+    noEpisodesBody: 'Soundkeep 會依排程檢查這個訂閱來源。',
     download: '下載單集',
     downloadFailed: '無法下載這個單集',
     played: '已播放',

@@ -1,5 +1,5 @@
 /*
- * Nocturne — Downtify 3.0 design tokens.
+ * Nocturne — Soundkeep design tokens.
  *
  * Shared by the web app (src/index.css) and the documentation site
  * (docs-site/). No @import here: each consumer brings its own Tailwind
@@ -24,9 +24,9 @@
   --c-text-3: #b5b8bf;
   --c-muted: #8b8f98;
   --c-faint: #5d616a;
-  --c-accent: #1ad05c;
-  --c-accent-hi: #48dd87;
-  --c-on-accent: #04140a;
+  --c-accent: #3b82f6;
+  --c-accent-hi: #60a5fa;
+  --c-on-accent: #050b18;
   --c-danger: #f26d6d;
   --c-warn: #e8b04b;
   --c-glass: rgb(22 23 27 / 0.86);
@@ -57,8 +57,8 @@
   --c-text-3: #3e434a;
   --c-muted: #5e636c;
   --c-faint: #8d939c;
-  --c-accent: #0e9f48;
-  --c-accent-hi: #0b8a3e;
+  --c-accent: #1d4ed8;
+  --c-accent-hi: #1e40af;
   --c-on-accent: #ffffff;
   --c-danger: #d0393a;
   --c-warn: #b7791f;

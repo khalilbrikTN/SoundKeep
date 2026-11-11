@@ -237,7 +237,7 @@ export default {
     search: '“{query}” 검색',
     website: '공식 웹사이트',
     failed: '스토어를 조회하지 못했습니다.',
-    note: 'Bandcamp는 판매 금액의 대부분을 아티스트에게 전달합니다. 단순한 링크일 뿐이며 Downtify는 아무것도 판매하거나 수익을 얻지 않습니다.',
+    note: 'Bandcamp는 판매 금액의 대부분을 아티스트에게 전달합니다. 단순한 링크일 뿐이며 Soundkeep는 아무것도 판매하거나 수익을 얻지 않습니다.',
   },
   playlistSearch: {
     placeholder: '이 재생목록에서 검색',
@@ -345,7 +345,7 @@ export default {
       'YouTube Music을 검색하거나 Spotify 또는 YouTube Music의 곡, 앨범, 재생목록 링크를 붙여넣으세요.',
     step2Title: '다운로드',
     step2Body:
-      'Downtify가 음원을 가져와 각 파일에 제목, 아티스트, 앨범, 커버 아트 및 가사 태그를 지정합니다.',
+      'Soundkeep가 음원을 가져와 각 파일에 제목, 아티스트, 앨범, 커버 아트 및 가사 태그를 지정합니다.',
     step3Title: '어디서나 감상',
     step3Body:
       '여기서 직접 재생하거나, 재생목록 모니터링으로 동기화 상태를 유지하고, Jellyfin, Plex, Navidrome에 라이브러리를 연결하세요.',
@@ -376,7 +376,7 @@ export default {
     typeSingle: '싱글',
     typeEp: 'EP',
     unsupportedLink:
-      'Downtify에서 지원하지 않는 링크입니다. Spotify 트랙, 앨범, 재생목록, YouTube Music 링크 또는 SoundCloud 트랙을 입력하세요.',
+      'Soundkeep에서 지원하지 않는 링크입니다. Spotify 트랙, 앨범, 재생목록, YouTube Music 링크 또는 SoundCloud 트랙을 입력하세요.',
     tipSearchTitle: '이름으로 검색',
     tipSearchBody:
       '아티스트, 앨범 또는 곡명을 입력하세요 — 결과는 YouTube Music에서 가져옵니다.',
@@ -536,7 +536,7 @@ export default {
     pausedTitle: '다운로드 일시 중지됨',
     pausedBody: '재개할 때까지 새 다운로드가 시작되지 않습니다.',
     pausedKept:
-      'Downtify를 다시 시작하거나 업데이트해도 대기 중인 곡은 대기열에 남아 있습니다.',
+      'Soundkeep를 다시 시작하거나 업데이트해도 대기 중인 곡은 대기열에 남아 있습니다.',
     emptyTitle: '대기열이 비어 있습니다',
     emptyBody:
       '음악을 검색하거나 링크를 붙여넣으면 다운로드 항목이 여기에 표시됩니다.',
@@ -612,7 +612,7 @@ export default {
     noMatchesHint: '다른 필터를 적용해보세요.',
     clearFilters: '필터 초기화',
     loadFailed: '라이브러리를 불러오지 못했습니다',
-    loadFailedHint: 'Downtify가 실행 중인지 확인한 후 다시 시도하세요.',
+    loadFailedHint: 'Soundkeep가 실행 중인지 확인한 후 다시 시도하세요.',
     maybeDeleted: '파일이 삭제되었거나 이름이 변경되었을 수 있습니다.',
     backToLibrary: '라이브러리로 돌아가기',
     selectAll: '전체 선택',
@@ -655,7 +655,7 @@ export default {
     replaceAudio: 'Use verified Deemix recordings',
     replaceAudioHint:
       'Match the exact artist, title and album. Keep music in the Deemix folder. Ambiguous matches leave originals untouched. This scan replaces audio instead of retagging it.',
-    deleteOriginals: 'Remove old Downtify audio after import',
+    deleteOriginals: 'Remove old Soundkeep audio after import',
     deleteOriginalsHint:
       'Only remove each verified original after playlists, likes and playback references are updated. External files and sidecars are never removed.',
     replacementProgress:
@@ -667,7 +667,7 @@ export default {
     subtitle:
       '이미 다운로드한 음악을 다시 다운로드하지 않고 정보를 개선합니다.',
     intro:
-      'Downtify가 라이브러리의 모든 트랙을 검사하여 이전 버전에서 누락된 작은 커버 아트, 누락된 가사, 불완전한 메타데이터 태그를 보완합니다.',
+      'Soundkeep가 라이브러리의 모든 트랙을 검사하여 이전 버전에서 누락된 작은 커버 아트, 누락된 가사, 불완전한 메타데이터 태그를 보완합니다.',
     audioNote:
       '오디오 파일 자체는 교체되지 않으며 커버 아트, 가사 및 태그 정보만 업데이트됩니다. 잘못된 출처에서 다운로드된 트랙은 그대로 유지되므로, 삭제 후 다시 다운로드해야 합니다.',
     safeNote:
@@ -699,7 +699,7 @@ export default {
       '가사가 없는 트랙을 공급자 목록에서 검색하여 발견된 가사를 파일에 포함시킵니다.',
     metadata: '태그 새로고침',
     metadataHint:
-      'Spotify에서 앨범명, 앨범 아티스트, 발매일, 트랙 번호를 가져와 채웁니다. Downtify가 Spotify 트랙 정보를 보관하고 있는 곡에만 적용됩니다.',
+      'Spotify에서 앨범명, 앨범 아티스트, 발매일, 트랙 번호를 가져와 채웁니다. Soundkeep가 Spotify 트랙 정보를 보관하고 있는 곡에만 적용됩니다.',
     tracksAffected: { one: '트랙 {count}개', other: '트랙 {count}개' },
     options: '옵션',
     artworkMin: '다음 크기 미만의 커버 아트 업그레이드',
@@ -712,7 +712,7 @@ export default {
     preferYoutube: 'YouTube Music 우선',
     recheck: '다음 기간 동안 재검사 건너뛰기',
     recheckHint:
-      '방금 확인한 트랙은 다음 검사 시 건너뜁니다. Downtify 새 버전으로 업데이트되면 항상 모든 항목을 다시 검사합니다.',
+      '방금 확인한 트랙은 다음 검사 시 건너뜁니다. Soundkeep 새 버전으로 업데이트되면 항상 모든 항목을 다시 검사합니다.',
     recheckDays: { one: '{count}일', other: '{count}일' },
     recheckNever: '항상 모든 트랙 검사',
     start: '업그레이드 시작',
@@ -783,7 +783,7 @@ export default {
     estimatedNote:
       '{date} 이전의 크기는 라이브러리에 아직 남아 있는 곡의 날짜로 추정하므로, 그 후 삭제된 곡은 빠져 있습니다.',
     allEstimatedNote:
-      'Downtify가 이제부터 매시간 라이브러리 크기를 기록합니다. 이전 날짜는 라이브러리에 아직 남아 있는 곡의 날짜로 추정합니다.',
+      'Soundkeep가 이제부터 매시간 라이브러리 크기를 기록합니다. 이전 날짜는 라이브러리에 아직 남아 있는 곡의 날짜로 추정합니다.',
     addedPerDay: '일별 추가',
     addedPerWeek: '주별 추가',
     sourcesTitle: '출처별',
@@ -821,11 +821,11 @@ export default {
     downloadedBySource: '출처별 다운로드 · {size}',
     noDownloads: '이 기간에는 다운로드한 항목이 없습니다.',
     logEmptyNote:
-      '아직 집계된 다운로드가 없습니다. Downtify는 이 버전부터 다운로드를 집계합니다.',
+      '아직 집계된 다운로드가 없습니다. Soundkeep는 이 버전부터 다운로드를 집계합니다.',
     logSinceNote: '다운로드는 {date}부터 집계됩니다.',
     cleanupTitle: '정리 가능',
     cleanupHint:
-      'Downtify가 중복되거나 남은 것으로 판단할 수 있는 공간입니다. 여기서는 아무것도 삭제하지 않습니다.',
+      'Soundkeep가 중복되거나 남은 것으로 판단할 수 있는 공간입니다. 여기서는 아무것도 삭제하지 않습니다.',
     duplicatesTitle: '중복된 곡',
     duplicatesHint:
       '{exact}곡은 같은 파일로 두 번 저장되었고, {likely}곡은 다른 출처에서 온 같은 곡으로 보입니다. 크기는 가장 큰 사본만 남길 때 확보되는 공간입니다.',
@@ -835,7 +835,7 @@ export default {
     },
     workingTitle: 'slskd 작업 사본',
     workingHint:
-      'Downtify가 라이브러리로 복사한 뒤 slskd 폴더에 남은 Soulseek 전송 파일입니다.',
+      'Soundkeep가 라이브러리로 복사한 뒤 slskd 폴더에 남은 Soulseek 전송 파일입니다.',
     workingInPlace:
       'slskd 파일을 그 자리에 두도록 설정되어 있어 slskd 폴더도 라이브러리의 일부입니다.',
     leftoversTitle: '남은 임시 파일',
@@ -843,7 +843,7 @@ export default {
     orphansTitle: '고아 부속 파일',
     orphansHint: '곡이 사라진 가사 파일과 앨범 커버입니다.',
     foldersTitle: '폴더',
-    foldersHint: 'Downtify가 기록하는 폴더의 모든 내용을 종류별로 보여줍니다.',
+    foldersHint: 'Soundkeep가 기록하는 폴더의 모든 내용을 종류별로 보여줍니다.',
     rescan: '다시 검사',
     scanFailed: '폴더를 검사하지 못했습니다.',
     scanning: '폴더 검사 중…',
@@ -951,7 +951,7 @@ export default {
       unavailable: '이 재생목록의 진단 정보를 사용할 수 없습니다.',
       items: {
         spotify_tracks: 'Spotify 트랙',
-        downloaded: 'Downtify 다운로드',
+        downloaded: 'Soundkeep 다운로드',
         physical_files: '찾은 파일',
         track_index: 'TrackIndex 매핑',
         monitor_history: 'Monitor 기록',
@@ -1076,8 +1076,8 @@ export default {
     karaoke: '노래방',
     karaokeWindow: '새 창에서 열기',
     karaokeWindowBlocked:
-      '브라우저가 새 창을 차단했습니다. Downtify의 팝업을 허용한 후 다시 시도하세요.',
-    karaokeWaiting: 'Downtify 기본 창에서 노래를 기다리는 중',
+      '브라우저가 새 창을 차단했습니다. Soundkeep의 팝업을 허용한 후 다시 시도하세요.',
+    karaokeWaiting: 'Soundkeep 기본 창에서 노래를 기다리는 중',
     fullscreen: '전체 화면',
     details: '세부정보',
     playing: '재생 중',
@@ -1289,9 +1289,9 @@ export default {
     tileSharedHint: '{size}, 다른 모니터링에도 있으며 한 번만 저장됨',
     tileFailing: '실패 중',
     unknownNote: {
-      one: '곡 {count}개는 Downtify가 곡이 모니터링에 들어온 방식을 기록하기 전에 추가되었습니다.',
+      one: '곡 {count}개는 Soundkeep가 곡이 모니터링에 들어온 방식을 기록하기 전에 추가되었습니다.',
       other:
-        '곡 {count}개는 Downtify가 곡이 모니터링에 들어온 방식을 기록하기 전에 추가되었습니다.',
+        '곡 {count}개는 Soundkeep가 곡이 모니터링에 들어온 방식을 기록하기 전에 추가되었습니다.',
     },
     missingNote: {
       one: '이 모니터링이 기록한 곡 {count}개가 더 이상 디스크에 없습니다.',
@@ -1319,8 +1319,8 @@ export default {
       other: '{count}곡은 첫 확인에서 들어옴',
     },
     periodUnknown: {
-      one: '그중 {count}곡은 Downtify가 방식을 기록하기 전에 기록됨',
-      other: '그중 {count}곡은 Downtify가 방식을 기록하기 전에 기록됨',
+      one: '그중 {count}곡은 Soundkeep가 방식을 기록하기 전에 기록됨',
+      other: '그중 {count}곡은 Soundkeep가 방식을 기록하기 전에 기록됨',
     },
     barsPerDay: '하루 새 곡 수',
     barsPerWeek: '주간 새 곡 수',
@@ -1351,7 +1351,7 @@ export default {
     body: '이 곡을 라이브러리로 가져온 재생목록 모니터링입니다.',
     failed: '이 곡의 출처를 불러오지 못했습니다.',
     firstTitle: '처음 다운로드한 모니터링',
-    none: '이 곡을 다운로드한 모니터링이 없습니다. 직접 다운로드했거나 Downtify가 기록하기 전에 받은 곡입니다.',
+    none: '이 곡을 다운로드한 모니터링이 없습니다. 직접 다운로드했거나 Soundkeep가 기록하기 전에 받은 곡입니다.',
     otherAccount: '다른 계정의 모니터링',
     backfill: '첫 확인',
     estimated: '추정',
@@ -1402,7 +1402,7 @@ export default {
     detach: '원본에서 분리',
     detachTitle: '“{name}”을(를) 원본에서 분리할까요?',
     detachBody:
-      '곡을 추가하고 제거할 수 있게 됩니다. 곡은 그대로 유지되지만 Downtify가 Spotify 또는 YouTube Music과 동기화하지 않으며, 모니터링이 있다면 함께 제거됩니다.',
+      '곡을 추가하고 제거할 수 있게 됩니다. 곡은 그대로 유지되지만 Soundkeep가 Spotify 또는 YouTube Music과 동기화하지 않으며, 모니터링이 있다면 함께 제거됩니다.',
     detached: '“{name}”을(를) 이제 편집할 수 있습니다',
     by: '{owner}님의 재생목록',
     sharedWithCount: {
@@ -1421,7 +1421,7 @@ export default {
   settings: {
     apps: '앱 연동',
     title: '설정',
-    subtitle: 'Downtify의 음악 검색, 다운로드 및 태그 처리 방식을 설정합니다.',
+    subtitle: 'Soundkeep의 음악 검색, 다운로드 및 태그 처리 방식을 설정합니다.',
     sections: '섹션',
     general: '일반',
     sources: '음원 출처',
@@ -1486,7 +1486,7 @@ export default {
       'Keep audio, artwork and lyrics in the shared Deemix folder, without rewriting its tags. Configure a private ARL file on the server; do not paste it here.',
     deemixUrl: 'Deemix server URL',
     deemixRemote: 'Download folder inside Deemix',
-    deemixLocal: 'Same folder inside Downtify (read-only is supported)',
+    deemixLocal: 'Same folder inside Soundkeep (read-only is supported)',
     deemixQuality: 'Audio quality',
     slskdTitle: 'slskd',
     slskdFormats: '형식 우선순위',
@@ -1511,7 +1511,7 @@ export default {
     slskdKey: 'API 키',
     slskdFolder: 'slskd 다운로드 폴더',
     slskdFolderHint:
-      '호스트 경로가 아닌 Downtify 컨테이너 내부 경로를 입력해야 합니다.',
+      '호스트 경로가 아닌 Soundkeep 컨테이너 내부 경로를 입력해야 합니다.',
     slskdTimeout: '전체 타임아웃',
     slskdQueuedTimeout: '대기 타임아웃',
     slskdInPlace: 'slskd 폴더에 파일 그대로 유지',
@@ -1605,7 +1605,7 @@ export default {
     lyricsNeteaseHint: '방대한 데이터베이스 보유, 대부분 싱크 가사 지원',
     navidromeTitle: 'Navidrome',
     navidromeHint:
-      '다운로드한 재생목록을 Navidrome에 미러링합니다. Navidrome의 음악 폴더에 Downtify 다운로드 경로가 포함되어 있어야 합니다.',
+      '다운로드한 재생목록을 Navidrome에 미러링합니다. Navidrome의 음악 폴더에 Soundkeep 다운로드 경로가 포함되어 있어야 합니다.',
     navidromeEnabled: 'Navidrome 사용',
     navidromeEnabledHint: '서버 URL, 사용자 이름, 비밀번호가 필요합니다.',
     navidromeUrl: '서버 URL',
@@ -1614,7 +1614,7 @@ export default {
     navidromeAdminUser: '관리자 사용자 이름',
     navidromeAdminPassword: '관리자 비밀번호',
     navidromeAdminHint:
-      '선택 사항 — 설정하면 새 곡이 빠르게 반영되도록 Downtify가 라이브러리 검사를 직접 트리거할 수 있습니다.',
+      '선택 사항 — 설정하면 새 곡이 빠르게 반영되도록 Soundkeep가 라이브러리 검사를 직접 트리거할 수 있습니다.',
     test: {
       connection_not_deemix: 'The server is not a compatible Deemix instance.',
       quality_unavailable:
@@ -1624,12 +1624,12 @@ export default {
       testing: '테스트 중…',
       needFields: '위 필드를 먼저 입력하세요.',
       requestFailed:
-        '테스트를 실행하지 못했습니다. Downtify 서버에 접근할 수 있습니까?',
+        '테스트를 실행하지 못했습니다. Soundkeep 서버에 접근할 수 있습니까?',
       connected: '{server}에 성공적으로 연결되었습니다.',
       unknown: '테스트에서 예기치 않은 응답을 반환했습니다 ({code}).',
       config_missing: '필수 필드를 먼저 입력하세요.',
       connection_unreachable:
-        '{url}에 연결할 수 없습니다. 주소를 확인하고 서버가 작동 중이며 Downtify에서 접근 가능한지 확인하세요.',
+        '{url}에 연결할 수 없습니다. 주소를 확인하고 서버가 작동 중이며 Soundkeep에서 접근 가능한지 확인하세요.',
       connection_timeout: '{url}의 응답 시간이 초과되었습니다.',
       connection_bad_url:
         '올바른 주소 형식이 아닙니다. http:// 또는 https://로 시작해야 합니다.',
@@ -1647,9 +1647,9 @@ export default {
       soulseek_ok: 'slskd가 Soulseek에 로그인되어 있습니다.',
       soulseek_offline:
         'slskd가 Soulseek에 로그인되어 있지 않습니다. 로그인되기 전까지 아무것도 찾을 수 없습니다.',
-      folder_ok: 'Downtify가 {detail} 폴더를 읽을 수 있습니다.',
+      folder_ok: 'Soundkeep가 {detail} 폴더를 읽을 수 있습니다.',
       folder_missing:
-        'Downtify가 {detail} 폴더를 읽을 수 없습니다. slskd의 다운로드 폴더가 이 컨테이너에 마운트되어 있는지 확인하세요.',
+        'Soundkeep가 {detail} 폴더를 읽을 수 없습니다. slskd의 다운로드 폴더가 이 컨테이너에 마운트되어 있는지 확인하세요.',
       scan_ok: '이 계정으로 라이브러리 검사를 시작할 수 있습니다.',
       scan_not_admin:
         '이 계정으로는 라이브러리 검사를 시작할 수 없습니다. Navidrome은 관리자 계정만 검사를 허용합니다. 새 곡이 빠르게 반영되도록 관리자 정보를 입력하세요.',
@@ -1671,7 +1671,7 @@ export default {
       '추출된 커버 아트를 디스크에 캐시하여 라이브러리를 빠르게 불러옵니다. 추가 디스크 용량을 사용합니다.',
     reconcile: '라이브러리 경로 정합성 검사',
     reconcileHint:
-      'Downtify 외부에서 파일을 이동하거나 이름을 바꿨습니까? 저장된 경로를 업데이트하고, 활성화된 경우 M3U 및 Navidrome 재생목록을 다시 씁니다.',
+      'Soundkeep 외부에서 파일을 이동하거나 이름을 바꿨습니까? 저장된 경로를 업데이트하고, 활성화된 경우 M3U 및 Navidrome 재생목록을 다시 씁니다.',
     reconcileButton: '경로 정합성 검사',
     reconcilePaths: {
       one: '경로 {count}개를 업데이트했습니다.',
@@ -1693,7 +1693,7 @@ export default {
       '이미 보유하고 있는 오디오 파일 폴더입니다. 파일은 원래 위치에 그대로 유지됩니다. 동기화 시 태그를 읽고 누락된 가사와 커버를 다운로드할 때와 동일하게 채운 후 해당 아티스트 항목으로 분류합니다. Docker 환경에서는 컨테이너 내부 경로를 입력하고 호스트 폴더를 마운트하세요.',
     externalLibraryFolder: '폴더 경로',
     externalLibraryFolderHint:
-      '호스트 경로가 아닌 Downtify 컨테이너 내부 경로여야 합니다.',
+      '호스트 경로가 아닌 Soundkeep 컨테이너 내부 경로여야 합니다.',
     externalLibraryPlaceholder: '/music/collection',
     externalLibraryAdd: '폴더 추가',
     externalLibraryRemove: '폴더 제거',
@@ -1740,7 +1740,7 @@ export default {
     version: '버전 {version}',
     upToDate: '최신 버전',
     source: '소스 코드',
-    sourceHint: 'Downtify는 오픈 소스 소프트웨어입니다.',
+    sourceHint: 'Soundkeep는 오픈 소스 소프트웨어입니다.',
     docs: '문서',
     docsHint: '설치 가이드, 설정 안내 및 API 레퍼런스.',
     openDocs: '문서 열기',
@@ -1753,7 +1753,7 @@ export default {
     networkHint: '이 서버에 접근하는 주소 설정입니다. 관리자에게만 표시됩니다.',
     experimental: '실험적 기능',
     experimentalHint:
-      '모바일 앱은 아직 개발 중입니다. Android 앱은 정식 출시 전이며, Downtify 버전에 따라 기기 페어링 및 스트리밍 프로토콜이 변경될 수 있습니다.',
+      '모바일 앱은 아직 개발 중입니다. Android 앱은 정식 출시 전이며, Soundkeep 버전에 따라 기기 페어링 및 스트리밍 프로토콜이 변경될 수 있습니다.',
   },
   shortcuts: {
     title: '키보드 단축키',
@@ -1776,7 +1776,7 @@ export default {
     help: '단축키 안내 보기',
   },
   auth: {
-    signInTitle: 'Downtify 로그인',
+    signInTitle: 'Soundkeep 로그인',
     signInBody: '사용자 이름과 비밀번호를 입력하여 로그인하세요.',
     signInBodyOidcOnly: 'ID 공급자를 통해 로그인하세요.',
     username: '사용자 이름',
@@ -1789,7 +1789,7 @@ export default {
     tooMany: '로그인 시도가 너무 많습니다. 몇 분 후 다시 시도하세요.',
     forgotHint:
       '관리자 비밀번호를 잊으셨나요? 서버 터미널에서 “python main.py auth-reset”을 실행하세요.',
-    noticeTitle: 'Downtify에 사용자 계정 기능이 도입되었습니다',
+    noticeTitle: 'Soundkeep에 사용자 계정 기능이 도입되었습니다',
     noticeBody:
       '이제 모든 사용자가 고유한 계정으로 로그인해야 하며, 관리자는 설정 → 사용자 관리에서 다른 사용자를 추가할 수 있습니다. 다음 정보로 로그인하세요:',
     noticeKeptPassword: '이전에 설정한 비밀번호',
@@ -1798,7 +1798,7 @@ export default {
   },
   apps: {
     serverGroup: '현재 서버',
-    serverGroupHint: 'Downtify 앱에서 이 서버를 식별하는 정보입니다.',
+    serverGroupHint: 'Soundkeep 앱에서 이 서버를 식별하는 정보입니다.',
     serverName: '서버 이름',
     serverNameHint:
       '앱 내부 및 네트워크에서 서버를 검색할 때 표시되는 이름입니다.',
@@ -1819,7 +1819,7 @@ export default {
     signOutEverywhereTitle: '모든 기기에서 로그아웃하시겠습니까?',
     pairTitle: '스마트폰 연결',
     pairBody:
-      'Downtify 앱에서 “코드 스캔”을 선택하고 이 화면의 카메라를 비추세요.',
+      'Soundkeep 앱에서 “코드 스캔”을 선택하고 이 화면의 카메라를 비추세요.',
     qrLabel: '기기 연결용 QR 코드',
     orTypeCode: '또는 아래 코드를 직접 입력하세요',
     expiresIn: '{time} 후 만료',
@@ -1834,7 +1834,7 @@ export default {
       '현재 브라우저를 포함해 로그인된 모든 웹 브라우저에서 로그아웃하고 연결된 모든 전용 앱과의 연동을 해제합니다.',
     signOutEverywhereBody:
       '연결된 전용 앱을 다시 페어링해야 하며, 모든 브라우저에서 다시 로그인해야 합니다.',
-    androidGroup: 'Android용 Downtify',
+    androidGroup: 'Android용 Soundkeep',
     androidHint:
       '서버 라이브러리를 스마트폰에서 바로 탐색하고 재생할 수 있는 모바일 앱입니다.',
     androidBody:
@@ -1842,7 +1842,7 @@ export default {
     androidUnreleased:
       '아직 정식 버전이 출시되지 않았습니다. 현재 활발히 개발 중이므로 설치 가능한 파일이 아직 없습니다.',
     androidRepo: '저장소 보기',
-    iosGroup: 'iOS용 Downtify',
+    iosGroup: 'iOS용 Soundkeep',
     iosHint:
       '이 서버의 라이브러리를 탐색하고 재생하는 iPhone 및 iPad 앱입니다.',
     iosBody:
@@ -1873,7 +1873,7 @@ export default {
   },
   port: {
     label: '포트',
-    hint: 'Downtify가 수신 대기할 네트워크 포트입니다. 서버를 재시작하거나 “저장 후 재시작”을 누르면 즉시 적용됩니다.',
+    hint: 'Soundkeep가 수신 대기할 네트워크 포트입니다. 서버를 재시작하거나 “저장 후 재시작”을 누르면 즉시 적용됩니다.',
     locked:
       '서버의 {source} 환경 설정에 의해 고정되어 있습니다. 이 설정을 제거해야 여기서 포트를 변경할 수 있습니다.',
     save: '저장',
@@ -1883,7 +1883,7 @@ export default {
     saved: '다음 시작 시 사용할 포트로 {port}번이 저장되었습니다',
     invalid: '{min}부터 {max} 사이의 포트 번호를 입력하세요',
     dockerWarning:
-      'Downtify가 Docker 환경에서 실행 중인 경우: 포트 매핑을 동일한 포트(ports: NEW:NEW)로 변경하고 컨테이너를 재생성하거나 network_mode: host 설정을 사용해야 합니다. 그렇지 않으면 서버에 접근할 수 없게 됩니다. 문제가 발생하면 DOWNTIFY_PORT 환경 변수를 설정하여 이전 포트로 복구할 수 있습니다.',
+      'Soundkeep가 Docker 환경에서 실행 중인 경우: 포트 매핑을 동일한 포트(ports: NEW:NEW)로 변경하고 컨테이너를 재생성하거나 network_mode: host 설정을 사용해야 합니다. 그렇지 않으면 서버에 접근할 수 없게 됩니다. 문제가 발생하면 DOWNTIFY_PORT 환경 변수를 설정하여 이전 포트로 복구할 수 있습니다.',
     proxyWarning:
       '리버스 프록시나 별도 포트 매핑 등 다른 주소를 통해 접속하고 있다면, 해당 프록시 설정의 대상 포트도 새 포트로 변경해야 합니다.',
     confirmTitle: '{port}번 포트로 재시작하시겠습니까?',
@@ -1891,10 +1891,10 @@ export default {
       '진행 중인 모든 다운로드가 중단되며, 연결된 모든 웹 페이지와 앱이 새 포트로 다시 접속을 시도합니다.',
     restartingTitle: '{port}번 포트로 재시작 중',
     restartingBody:
-      'Downtify가 다시 온라인 상태가 되기를 기다리는 중… 자동으로 새 주소로 이동합니다.',
+      'Soundkeep가 다시 온라인 상태가 되기를 기다리는 중… 자동으로 새 주소로 이동합니다.',
     unreachable:
-      '새 포트에서 Downtify의 응답이 아직 없습니다. 새 주소로 직접 접속해보거나 서버 로그를 확인하세요.',
-    openNew: 'Downtify가 재시작 중입니다. 새 주소로 열기:',
+      '새 포트에서 Soundkeep의 응답이 아직 없습니다. 새 주소로 직접 접속해보거나 서버 로그를 확인하세요.',
+    openNew: 'Soundkeep가 재시작 중입니다. 새 주소로 열기:',
   },
   account: {
     title: '계정',
@@ -2128,7 +2128,7 @@ export default {
     kicker: '팟캐스트',
     notFound: '더 이상 구독하지 않는 프로그램입니다',
     noEpisodesTitle: '아직 에피소드가 없습니다',
-    noEpisodesBody: 'Downtify가 자체 일정에 맞춰 이 피드를 확인합니다.',
+    noEpisodesBody: 'Soundkeep가 자체 일정에 맞춰 이 피드를 확인합니다.',
     download: '에피소드 다운로드',
     downloadFailed: '에피소드를 다운로드하지 못했습니다',
     played: '재생 완료',

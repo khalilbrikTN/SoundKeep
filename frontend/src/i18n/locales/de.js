@@ -250,7 +250,7 @@ export default {
     search: 'Nach „{query}“ suchen',
     website: 'Offizielle Website',
     failed: 'Die Shops konnten nicht abgefragt werden.',
-    note: 'Bandcamp gibt den Großteil jedes Verkaufs an den Künstler weiter. Das sind einfache Links: Downtify verkauft nichts und verdient nichts daran.',
+    note: 'Bandcamp gibt den Großteil jedes Verkaufs an den Künstler weiter. Das sind einfache Links: Soundkeep verkauft nichts und verdient nichts daran.',
   },
   playlistSearch: {
     placeholder: 'In dieser Playlist suchen',
@@ -362,7 +362,7 @@ export default {
       'Suche auf YouTube Music oder füge einen Spotify- oder YouTube-Music-Link zu einem Titel, Album oder einer Playlist ein.',
     step2Title: 'Herunterladen',
     step2Body:
-      'Downtify lädt die Audiodatei herunter und versieht sie mit Titel, Künstler, Album, Cover und Songtext.',
+      'Soundkeep lädt die Audiodatei herunter und versieht sie mit Titel, Künstler, Album, Cover und Songtext.',
     step3Title: 'Überall hören',
     step3Body:
       'Höre hier Musik, halte Playlists mit der Playlist-Überwachung synchron oder verbinde Jellyfin, Plex oder Navidrome mit deiner Bibliothek.',
@@ -393,7 +393,7 @@ export default {
     typeSingle: 'Single',
     typeEp: 'EP',
     unsupportedLink:
-      'Downtify kann diesen Link nicht herunterladen. Füge einen Spotify-Titel, ein Album oder eine Playlist, einen YouTube-Music-Link oder einen SoundCloud-Titel ein.',
+      'Soundkeep kann diesen Link nicht herunterladen. Füge einen Spotify-Titel, ein Album oder eine Playlist, einen YouTube-Music-Link oder einen SoundCloud-Titel ein.',
     tipSearchTitle: 'Nach Namen suchen',
     tipSearchBody:
       'Gib einen Künstler, ein Album oder einen Titel ein - die Ergebnisse stammen von YouTube Music.',
@@ -560,7 +560,7 @@ export default {
     pausedTitle: 'Downloads pausiert',
     pausedBody: 'Bis zum Fortsetzen startet kein neuer Download.',
     pausedKept:
-      'Wartende Titel bleiben in der Warteschlange, auch wenn Downtify neu startet oder aktualisiert wird.',
+      'Wartende Titel bleiben in der Warteschlange, auch wenn Soundkeep neu startet oder aktualisiert wird.',
     emptyTitle: 'Die Warteschlange ist leer',
     emptyBody:
       'Suche nach Musik oder füge einen Link ein - Downloads erscheinen hier.',
@@ -638,7 +638,7 @@ export default {
     noMatchesHint: 'Versuche es mit einem anderen Filter.',
     clearFilters: 'Filter zurücksetzen',
     loadFailed: 'Die Bibliothek konnte nicht geladen werden',
-    loadFailedHint: 'Prüfe, ob Downtify läuft, und versuche es erneut.',
+    loadFailedHint: 'Prüfe, ob Soundkeep läuft, und versuche es erneut.',
     maybeDeleted: 'Möglicherweise wurde der Eintrag gelöscht oder umbenannt.',
     backToLibrary: 'Zurück zur Bibliothek',
     selectAll: 'Alle auswählen',
@@ -681,7 +681,7 @@ export default {
     replaceAudio: 'Use verified Deemix recordings',
     replaceAudioHint:
       'Match the exact artist, title and album. Keep music in the Deemix folder. Ambiguous matches leave originals untouched. This scan replaces audio instead of retagging it.',
-    deleteOriginals: 'Remove old Downtify audio after import',
+    deleteOriginals: 'Remove old Soundkeep audio after import',
     deleteOriginalsHint:
       'Only remove each verified original after playlists, likes and playback references are updated. External files and sidecars are never removed.',
     replacementProgress:
@@ -693,7 +693,7 @@ export default {
     subtitle:
       'Verbessere bereits heruntergeladene Musik, statt sie erneut herunterzuladen.',
     intro:
-      'Downtify prüft alle Titel deiner Bibliothek und repariert, was eine ältere Version hinterlassen hat - kleine Cover, fehlende Songtexte oder unvollständige Tags.',
+      'Soundkeep prüft alle Titel deiner Bibliothek und repariert, was eine ältere Version hinterlassen hat - kleine Cover, fehlende Songtexte oder unvollständige Tags.',
     audioNote:
       'Audiodateien werden nie ersetzt: Aktualisiert werden nur Cover, Songtexte und Tags. Ein Titel aus der falschen Quelle bleibt unverändert - lösche ihn und lade ihn erneut herunter.',
     safeNote:
@@ -725,7 +725,7 @@ export default {
       'Suche mit deinen ausgewählten Anbietern nach Songtexten für Titel ohne Lyrics und füge gefundene Texte ein.',
     metadata: 'Tags aktualisieren',
     metadataHint:
-      'Ergänze Album, Albumkünstler, Veröffentlichungsdatum und Titelnummer von Spotify. Nur für Titel, deren Spotify-Zuordnung Downtify noch kennt.',
+      'Ergänze Album, Albumkünstler, Veröffentlichungsdatum und Titelnummer von Spotify. Nur für Titel, deren Spotify-Zuordnung Soundkeep noch kennt.',
     tracksAffected: { one: '{count} Titel', other: '{count} Titel' },
     options: 'Optionen',
     artworkMin: 'Cover verbessern, wenn kleiner als',
@@ -738,7 +738,7 @@ export default {
     preferYoutube: 'YouTube Music bevorzugen',
     recheck: 'Titel nicht erneut prüfen für',
     recheckHint:
-      'Kürzlich geprüfte Titel werden beim nächsten Durchlauf übersprungen. Eine neuere Downtify-Version prüft immer alle Titel erneut.',
+      'Kürzlich geprüfte Titel werden beim nächsten Durchlauf übersprungen. Eine neuere Soundkeep-Version prüft immer alle Titel erneut.',
     recheckDays: { one: '{count} Tag', other: '{count} Tage' },
     recheckNever: 'Jeden Titel immer prüfen',
     start: 'Verbesserung starten',
@@ -810,7 +810,7 @@ export default {
     estimatedNote:
       'Vor dem {date} wird die Größe aus den Daten der Songs geschätzt, die noch in der Bibliothek sind – seitdem gelöschte Songs fehlen darin.',
     allEstimatedNote:
-      'Downtify notiert die Größe der Bibliothek ab jetzt stündlich. Frühere Tage werden aus den Daten der Songs geschätzt, die noch in der Bibliothek sind.',
+      'Soundkeep notiert die Größe der Bibliothek ab jetzt stündlich. Frühere Tage werden aus den Daten der Songs geschätzt, die noch in der Bibliothek sind.',
     addedPerDay: 'Pro Tag hinzugefügt',
     addedPerWeek: 'Pro Woche hinzugefügt',
     sourcesTitle: 'Nach Quelle',
@@ -849,11 +849,11 @@ export default {
     downloadedBySource: 'Nach Quelle heruntergeladen · {size}',
     noDownloads: 'In diesem Zeitraum wurde nichts heruntergeladen.',
     logEmptyNote:
-      'Noch kein Download gezählt: Downtify zählt sie ab dieser Version.',
+      'Noch kein Download gezählt: Soundkeep zählt sie ab dieser Version.',
     logSinceNote: 'Downloads werden seit dem {date} gezählt.',
     cleanupTitle: 'Ließe sich aufräumen',
     cleanupHint:
-      'Speicher, den Downtify als überflüssig oder liegen geblieben erkennt. Hier wird nichts gelöscht.',
+      'Speicher, den Soundkeep als überflüssig oder liegen geblieben erkennt. Hier wird nichts gelöscht.',
     duplicatesTitle: 'Doppelte Songs',
     duplicatesHint:
       '{exact} zweimal als dieselbe Datei gespeichert, {likely} wahrscheinlich derselbe Song aus einer anderen Quelle. Die Größe ist das, was frei würde, wenn nur die größte Kopie bliebe.',
@@ -863,7 +863,7 @@ export default {
     },
     workingTitle: 'Arbeitskopien von slskd',
     workingHint:
-      'Soulseek-Übertragungen, die im slskd-Ordner liegen blieben, nachdem Downtify sie in die Bibliothek kopiert hat.',
+      'Soulseek-Übertragungen, die im slskd-Ordner liegen blieben, nachdem Soundkeep sie in die Bibliothek kopiert hat.',
     workingInPlace:
       'slskd-Dateien bleiben an Ort und Stelle, der slskd-Ordner gehört also zur Bibliothek.',
     leftoversTitle: 'Liegen gebliebene temporäre Dateien',
@@ -873,7 +873,7 @@ export default {
     orphansHint:
       'Songtext-Dateien und Album-Cover, deren Songs nicht mehr da sind.',
     foldersTitle: 'Ordner',
-    foldersHint: 'Alles in den Ordnern, in die Downtify schreibt, nach Art.',
+    foldersHint: 'Alles in den Ordnern, in die Soundkeep schreibt, nach Art.',
     rescan: 'Erneut prüfen',
     scanFailed: 'Die Ordner konnten nicht geprüft werden.',
     scanning: 'Ordner werden geprüft…',
@@ -981,7 +981,7 @@ export default {
       unavailable: 'Für diese Playlist ist keine Diagnose verfügbar.',
       items: {
         spotify_tracks: 'Spotify-Titel',
-        downloaded: 'Von Downtify heruntergeladen',
+        downloaded: 'Von Soundkeep heruntergeladen',
         physical_files: 'Gefundene Dateien',
         track_index: 'TrackIndex-Zuordnungen',
         monitor_history: 'Monitor-Verlauf',
@@ -1109,8 +1109,8 @@ export default {
     karaoke: 'Karaoke',
     karaokeWindow: 'In neuem Fenster öffnen',
     karaokeWindowBlocked:
-      'Der Browser hat das neue Fenster blockiert. Erlaube Pop-ups für Downtify und versuche es erneut.',
-    karaokeWaiting: 'Warte auf einen Song aus dem Downtify-Hauptfenster',
+      'Der Browser hat das neue Fenster blockiert. Erlaube Pop-ups für Soundkeep und versuche es erneut.',
+    karaokeWaiting: 'Warte auf einen Song aus dem Soundkeep-Hauptfenster',
     fullscreen: 'Vollbild',
     details: 'Details',
     playing: 'Wird abgespielt',
@@ -1328,9 +1328,9 @@ export default {
     tileSharedHint: '{size}, auch in anderen Überwachungen, einmal gespeichert',
     tileFailing: 'Fehlgeschlagen',
     unknownNote: {
-      one: '{count} Titel wurde hinzugefügt, bevor Downtify festhielt, wie Titel in eine Überwachung kommen.',
+      one: '{count} Titel wurde hinzugefügt, bevor Soundkeep festhielt, wie Titel in eine Überwachung kommen.',
       other:
-        '{count} Titel wurden hinzugefügt, bevor Downtify festhielt, wie Titel in eine Überwachung kommen.',
+        '{count} Titel wurden hinzugefügt, bevor Soundkeep festhielt, wie Titel in eine Überwachung kommen.',
     },
     missingNote: {
       one: '{count} Titel, den diese Überwachung erfasst hat, ist nicht mehr auf dem Datenträger.',
@@ -1362,8 +1362,8 @@ export default {
       other: '{count} kamen mit ihrer ersten Prüfung',
     },
     periodUnknown: {
-      one: '{count} davon wurde erfasst, bevor Downtify festhielt, wie',
-      other: '{count} davon wurden erfasst, bevor Downtify festhielt, wie',
+      one: '{count} davon wurde erfasst, bevor Soundkeep festhielt, wie',
+      other: '{count} davon wurden erfasst, bevor Soundkeep festhielt, wie',
     },
     barsPerDay: 'Neue Titel pro Tag',
     barsPerWeek: 'Neue Titel pro Woche',
@@ -1394,7 +1394,7 @@ export default {
     body: 'Die Playlist-Überwachungen, die ihn in deine Bibliothek gebracht haben.',
     failed: 'Die Herkunft dieses Titels konnte nicht geladen werden.',
     firstTitle: 'Zuerst heruntergeladen von',
-    none: 'Keine Überwachung hat ihn heruntergeladen: Er wurde von Hand geladen oder bevor Downtify das festhielt.',
+    none: 'Keine Überwachung hat ihn heruntergeladen: Er wurde von Hand geladen oder bevor Soundkeep das festhielt.',
     otherAccount: 'Eine Überwachung eines anderen Kontos',
     backfill: 'Erste Prüfung',
     estimated: 'Vermutlich',
@@ -1445,7 +1445,7 @@ export default {
     detach: 'Von der Quelle lösen',
     detachTitle: '„{name}“ von der Quelle lösen?',
     detachBody:
-      'Du kannst dann Titel hinzufügen und entfernen. Die Titel bleiben, wie sie sind, aber Downtify hält die Playlist nicht mehr mit Spotify oder YouTube Music abgeglichen und entfernt ihre Überwachung, falls vorhanden.',
+      'Du kannst dann Titel hinzufügen und entfernen. Die Titel bleiben, wie sie sind, aber Soundkeep hält die Playlist nicht mehr mit Spotify oder YouTube Music abgeglichen und entfernt ihre Überwachung, falls vorhanden.',
     detached: '„{name}“ kann jetzt bearbeitet werden',
     by: 'von {owner}',
     sharedWithCount: {
@@ -1464,7 +1464,7 @@ export default {
   settings: {
     apps: 'Apps',
     title: 'Einstellungen',
-    subtitle: 'So findet, lädt und versieht Downtify deine Musik mit Tags.',
+    subtitle: 'So findet, lädt und versieht Soundkeep deine Musik mit Tags.',
     sections: 'Bereiche',
     general: 'Allgemein',
     sources: 'Audioquellen',
@@ -1530,7 +1530,7 @@ export default {
       'Keep audio, artwork and lyrics in the shared Deemix folder, without rewriting its tags. Configure a private ARL file on the server; do not paste it here.',
     deemixUrl: 'Deemix server URL',
     deemixRemote: 'Download folder inside Deemix',
-    deemixLocal: 'Same folder inside Downtify (read-only is supported)',
+    deemixLocal: 'Same folder inside Soundkeep (read-only is supported)',
     deemixQuality: 'Audio quality',
     slskdTitle: 'slskd',
     slskdFormats: 'Formatpriorität',
@@ -1557,7 +1557,7 @@ export default {
     slskdKey: 'API-Schlüssel',
     slskdFolder: 'slskd-Downloadordner',
     slskdFolderHint:
-      'Der Pfad innerhalb des Downtify-Containers, nicht auf dem Host.',
+      'Der Pfad innerhalb des Soundkeep-Containers, nicht auf dem Host.',
     slskdTimeout: 'Gesamtzeitlimit',
     slskdQueuedTimeout: 'Zeitlimit in Warteschlange',
     slskdInPlace: 'Dateien im slskd-Ordner belassen',
@@ -1655,7 +1655,7 @@ export default {
     lyricsNeteaseHint: 'Großer Katalog, meist zeitsynchronisierte Songtexte',
     navidromeTitle: 'Navidrome',
     navidromeHint:
-      'Spiegele heruntergeladene Playlists in Navidrome. Der Musikordner muss Downtifys Downloads enthalten.',
+      'Spiegele heruntergeladene Playlists in Navidrome. Der Musikordner muss die Downloads von Soundkeep enthalten.',
     navidromeEnabled: 'Navidrome verwenden',
     navidromeEnabledHint:
       'Dazu werden Server-URL, Benutzername und Passwort benötigt.',
@@ -1665,7 +1665,7 @@ export default {
     navidromeAdminUser: 'Admin-Benutzername',
     navidromeAdminPassword: 'Admin-Passwort',
     navidromeAdminHint:
-      'Optional - ermöglicht Downtify, eine Bibliotheksprüfung zu starten, damit neue Titel schneller angezeigt werden.',
+      'Optional - ermöglicht Soundkeep, eine Bibliotheksprüfung zu starten, damit neue Titel schneller angezeigt werden.',
     test: {
       connection_not_deemix: 'The server is not a compatible Deemix instance.',
       quality_unavailable:
@@ -1675,12 +1675,12 @@ export default {
       testing: 'Verbindung wird getestet …',
       needFields: 'Fülle zuerst die obigen Felder aus.',
       requestFailed:
-        'Der Test konnte nicht ausgeführt werden. Ist Downtify noch erreichbar?',
+        'Der Test konnte nicht ausgeführt werden. Ist Soundkeep noch erreichbar?',
       connected: 'Mit {server} verbunden.',
       unknown: 'Unerwartete Antwort beim Test ({code}).',
       config_missing: 'Fülle zuerst die erforderlichen Felder aus.',
       connection_unreachable:
-        '{url} ist nicht erreichbar. Prüfe die Adresse und ob der Server läuft und von Downtify aus erreichbar ist.',
+        '{url} ist nicht erreichbar. Prüfe die Adresse und ob der Server läuft und von Soundkeep aus erreichbar ist.',
       connection_timeout: '{url} hat nicht rechtzeitig geantwortet.',
       connection_bad_url:
         'Diese Adresse ist ungültig. Sie muss mit http:// oder https:// beginnen.',
@@ -1699,9 +1699,9 @@ export default {
       soulseek_ok: 'slskd ist bei Soulseek angemeldet.',
       soulseek_offline:
         'slskd ist nicht bei Soulseek angemeldet und wird daher nichts finden.',
-      folder_ok: 'Downtify kann {detail} lesen.',
+      folder_ok: 'Soundkeep kann {detail} lesen.',
       folder_missing:
-        'Downtify kann {detail} nicht lesen. Das muss der Ordner sein, in den slskd herunterlädt und der in diesen Container eingebunden ist.',
+        'Soundkeep kann {detail} nicht lesen. Das muss der Ordner sein, in den slskd herunterlädt und der in diesen Container eingebunden ist.',
       scan_ok: 'Dieses Konto kann Bibliotheksprüfungen starten.',
       scan_not_admin:
         'Dieses Konto kann keine Bibliotheksprüfungen starten - Navidrome erlaubt das nur Admins. Gib Admin-Benutzername und Passwort ein, damit neue Titel schneller angezeigt werden.',
@@ -1723,7 +1723,7 @@ export default {
       'Speichere extrahierte Cover auf dem Datenträger, damit die Bibliothek schneller lädt. Benötigt zusätzlichen Speicherplatz.',
     reconcile: 'Bibliothekspfade korrigieren',
     reconcileHint:
-      'Dateien außerhalb von Downtify verschoben oder umbenannt? Aktualisiert die gespeicherten Pfade und schreibt bei Bedarf M3U- und Navidrome-Playlists neu.',
+      'Dateien außerhalb von Soundkeep verschoben oder umbenannt? Aktualisiert die gespeicherten Pfade und schreibt bei Bedarf M3U- und Navidrome-Playlists neu.',
     reconcileButton: 'Pfade korrigieren',
     reconcilePaths: {
       one: '{count} Pfad aktualisiert.',
@@ -1745,7 +1745,7 @@ export default {
       'Ordner mit deiner vorhandenen Musik. Dateien bleiben an ihrem Speicherort. Bei der Synchronisierung werden Tags gelesen, fehlende Songtexte und Cover geladen und die Dateien passenden Künstlern zugeordnet - wie bei einem Download. Verwende in Docker den Pfad im Container und binde den Host-Ordner ein.',
     externalLibraryFolder: 'Ordner',
     externalLibraryFolderHint:
-      'Der Pfad innerhalb des Downtify-Containers, nicht auf dem Host.',
+      'Der Pfad innerhalb des Soundkeep-Containers, nicht auf dem Host.',
     externalLibraryPlaceholder: '/music/collection',
     externalLibraryAdd: 'Ordner hinzufügen',
     externalLibraryRemove: 'Ordner entfernen',
@@ -1795,7 +1795,7 @@ export default {
     version: 'Version {version}',
     upToDate: 'Auf dem neuesten Stand',
     source: 'Quellcode',
-    sourceHint: 'Downtify ist Open Source.',
+    sourceHint: 'Soundkeep ist Open Source.',
     docs: 'Dokumentation',
     docsHint: 'Einrichtung, Einstellungen und API-Referenz.',
     openDocs: 'Dokumentation öffnen',
@@ -1809,7 +1809,7 @@ export default {
       'So ist dieser Server erreichbar. Nur Admins können dies sehen.',
     experimental: 'Experimentell',
     experimentalHint:
-      'Die mobilen Apps befinden sich noch in Entwicklung. Die Android-App wurde noch nicht veröffentlicht; Kopplung und Streaming können sich zwischen Downtify-Versionen noch ändern.',
+      'Die mobilen Apps befinden sich noch in Entwicklung. Die Android-App wurde noch nicht veröffentlicht; Kopplung und Streaming können sich zwischen Soundkeep-Versionen noch ändern.',
   },
   shortcuts: {
     title: 'Tastenkürzel',
@@ -1832,7 +1832,7 @@ export default {
     help: 'Tastenkürzel anzeigen',
   },
   auth: {
-    signInTitle: 'Bei Downtify anmelden',
+    signInTitle: 'Bei Soundkeep anmelden',
     signInBody: 'Melde dich mit deinem Benutzernamen und Passwort an.',
     signInBodyOidcOnly: 'Melde dich über deinen Identitätsanbieter an.',
     username: 'Benutzername',
@@ -1846,7 +1846,7 @@ export default {
     tooMany: 'Zu viele Versuche. Warte einige Minuten und versuche es erneut.',
     forgotHint:
       'Admin-Passwort vergessen? Führe auf dem Server „python main.py auth-reset“ aus.',
-    noticeTitle: 'Downtify unterstützt jetzt Benutzerkonten',
+    noticeTitle: 'Soundkeep unterstützt jetzt Benutzerkonten',
     noticeBody:
       'Alle melden sich jetzt mit Benutzername und Passwort an. Admins können unter „Einstellungen → Benutzer“ Konten hinzufügen. Melde dich an mit:',
     noticeKeptPassword: 'dem zuvor festgelegten Passwort',
@@ -1856,7 +1856,7 @@ export default {
   },
   apps: {
     serverGroup: 'Dieser Server',
-    serverGroupHint: 'So sehen die Downtify-Apps diesen Server.',
+    serverGroupHint: 'So sehen die Soundkeep-Apps diesen Server.',
     serverName: 'Servername',
     serverNameHint:
       'Wird in den Apps und bei der Suche nach Servern in deinem Netzwerk angezeigt.',
@@ -1881,7 +1881,7 @@ export default {
     signOutEverywhereTitle: 'Überall abmelden?',
     pairTitle: 'Telefon koppeln',
     pairBody:
-      'Wähle in der Downtify-App „Code scannen“ und richte die Kamera hierauf.',
+      'Wähle in der Soundkeep-App „Code scannen“ und richte die Kamera hierauf.',
     qrLabel: 'QR-Code zum Koppeln',
     orTypeCode: 'oder gib diesen Code ein',
     expiresIn: 'Läuft ab in {time}',
@@ -1896,7 +1896,7 @@ export default {
       'Trennt die Kopplung aller deiner Apps und meldet dich in jedem Browser ab, auch in diesem.',
     signOutEverywhereBody:
       'Deine Apps müssen erneut gekoppelt werden und du musst dich in jedem Browser wieder anmelden.',
-    androidGroup: 'Downtify für Android',
+    androidGroup: 'Soundkeep für Android',
     androidHint:
       'Eine App, mit der du deine Bibliothek direkt von diesem Server durchsuchen und abspielen kannst.',
     androidBody:
@@ -1904,7 +1904,7 @@ export default {
     androidUnreleased:
       'Es wurde noch keine Version veröffentlicht: Die App befindet sich noch in Entwicklung und kann derzeit nicht installiert werden.',
     androidRepo: 'Repository ansehen',
-    iosGroup: 'Downtify für iOS',
+    iosGroup: 'Soundkeep für iOS',
     iosHint:
       'Eine iPhone- und iPad-App zum Durchsuchen und Abspielen deiner Bibliothek auf diesem Server.',
     iosBody:
@@ -1935,7 +1935,7 @@ export default {
   },
   port: {
     label: 'Port',
-    hint: 'Der Port, an dem Downtify Anfragen entgegennimmt. Die Änderung gilt beim nächsten Serverstart oder sofort mit „Speichern und neu starten“.',
+    hint: 'Der Port, an dem Soundkeep Anfragen entgegennimmt. Die Änderung gilt beim nächsten Serverstart oder sofort mit „Speichern und neu starten“.',
     locked:
       'Auf dem Server durch {source} festgelegt. Entferne diese Einstellung, um den Port hier auszuwählen.',
     save: 'Speichern',
@@ -1945,18 +1945,18 @@ export default {
     saved: 'Port {port} für den nächsten Start gespeichert',
     invalid: 'Gib einen Port zwischen {min} und {max} an',
     dockerWarning:
-      'Downtify läuft in Docker: Ändere die Portzuordnung auf denselben Port (ports: NEU:NEU) und erstelle den Container neu oder verwende network_mode: host. Andernfalls ist Downtify nicht erreichbar. Wenn DOWNTIFY_PORT gesetzt ist, wird wieder der alte Port verwendet.',
+      'Soundkeep läuft in Docker: Ändere die Portzuordnung auf denselben Port (ports: NEU:NEU) und erstelle den Container neu oder verwende network_mode: host. Andernfalls ist Soundkeep nicht erreichbar. Wenn DOWNTIFY_PORT gesetzt ist, wird wieder der alte Port verwendet.',
     proxyWarning:
-      'Du erreichst Downtify über eine andere Adresse (Reverse-Proxy oder Portzuordnung): Stelle auch diese auf den neuen Port um.',
+      'Du erreichst Soundkeep über eine andere Adresse (Reverse-Proxy oder Portzuordnung): Stelle auch diese auf den neuen Port um.',
     confirmTitle: 'Mit Port {port} neu starten?',
     confirmBody:
       'Laufende Downloads werden angehalten und alle Seiten und Apps verbinden sich erneut über den neuen Port.',
     restartingTitle: 'Neustart auf Port {port}',
     restartingBody:
-      'Warte, bis Downtify wieder verfügbar ist … Diese Seite öffnet automatisch die neue Adresse.',
+      'Warte, bis Soundkeep wieder verfügbar ist … Diese Seite öffnet automatisch die neue Adresse.',
     unreachable:
-      'Downtify antwortet noch nicht auf dem neuen Port. Versuche die neue Adresse oder prüfe die Serverprotokolle.',
-    openNew: 'Downtify wird neu gestartet. Öffne es unter der neuen Adresse:',
+      'Soundkeep antwortet noch nicht auf dem neuen Port. Versuche die neue Adresse oder prüfe die Serverprotokolle.',
+    openNew: 'Soundkeep wird neu gestartet. Öffne es unter der neuen Adresse:',
   },
   account: {
     title: 'Konto',
@@ -1981,7 +1981,7 @@ export default {
     needsAdmin: 'Das kann nur ein Admin erledigen',
     defaultPasswordTitle: 'Standardpasswort ändern',
     defaultPasswordBody:
-      '{name} ist mit dem Standardpasswort angemeldet, das allen bekannt ist, die Downtify kennen. Ändere es unter „Einstellungen → Allgemein“.',
+      '{name} ist mit dem Standardpasswort angemeldet, das allen bekannt ist, die Soundkeep kennen. Ändere es unter „Einstellungen → Allgemein“.',
     later: 'Später',
     changePassword: 'Passwort ändern',
   },
@@ -2196,7 +2196,7 @@ export default {
     kicker: 'Podcast',
     notFound: 'Dieser Podcast ist nicht mehr abonniert',
     noEpisodesTitle: 'Noch keine Folgen',
-    noEpisodesBody: 'Downtify prüft diesen Feed automatisch.',
+    noEpisodesBody: 'Soundkeep prüft diesen Feed automatisch.',
     download: 'Folge herunterladen',
     downloadFailed: 'Die Folge konnte nicht heruntergeladen werden',
     played: 'Abgespielt',

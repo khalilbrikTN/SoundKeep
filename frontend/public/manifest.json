@@ -1,14 +1,14 @@
 {
-  "name": "Downtify",
-  "short_name": "Downtify",
-  "description": "Self-hosted Spotify downloader — tracks, albums and playlists with full metadata, cover art and lyrics.",
+  "name": "Soundkeep",
+  "short_name": "Soundkeep",
+  "description": "Self-hosted music library — tracks, albums and playlists with full metadata, cover art and lyrics.",
   "start_url": "/",
   "scope": "/",
   "id": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#181818",
-  "theme_color": "#1ad05c",
+  "theme_color": "#3b82f6",
   "icons": [
     {
       "src": "/16.png",

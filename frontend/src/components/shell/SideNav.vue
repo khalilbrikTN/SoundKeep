@@ -11,7 +11,7 @@
       >
         <AppLogo :size="28" />
         <span class="text-display text-[19px] font-bold" :class="labelClass"
-          >Downtify</span
+          >Soundkeep</span
         >
       </RouterLink>
     </div>
@@ -200,7 +200,7 @@
         class="tabular px-3 pt-2 text-[11px] text-faint"
         :class="labelClass"
       >
-        Downtify {{ version }}
+        Soundkeep {{ version }}
       </p>
     </div>
   </aside>

@@ -239,7 +239,7 @@ export default {
     search: 'Търси „{query}“',
     website: 'Официален сайт',
     failed: 'Магазините не можаха да бъдат проверени.',
-    note: 'Bandcamp дава по-голямата част от всяка продажба на артиста. Това са обикновени връзки: Downtify не продава нищо и не печели от тях.',
+    note: 'Bandcamp дава по-голямата част от всяка продажба на артиста. Това са обикновени връзки: Soundkeep не продава нищо и не печели от тях.',
   },
   playlistSearch: {
     placeholder: 'Търсене в този плейлист',
@@ -348,7 +348,7 @@ export default {
       'Търси в YouTube Music или постави линк от Spotify или YouTube Music към песен, албум или плейлист.',
     step2Title: 'Изтегли я',
     step2Body:
-      'Downtify взима аудиото и добавя към всеки файл заглавие, изпълнител, албум, обложка и текст.',
+      'Soundkeep взима аудиото и добавя към всеки файл заглавие, изпълнител, албум, обложка и текст.',
     step3Title: 'Слушай навсякъде',
     step3Body:
       'Пусни я тук, синхронизирай плейлисти с Наблюдение или насочи Jellyfin, Plex или Navidrome към библиотеката си.',
@@ -379,7 +379,7 @@ export default {
     typeSingle: 'Сингъл',
     typeEp: 'EP',
     unsupportedLink:
-      'Downtify не може да изтегли този линк. Постави песен, албум или плейлист от Spotify, линк от YouTube Music или песен от SoundCloud.',
+      'Soundkeep не може да изтегли този линк. Постави песен, албум или плейлист от Spotify, линк от YouTube Music или песен от SoundCloud.',
     tipSearchTitle: 'Търси по име',
     tipSearchBody:
       'Въведи изпълнител, албум или песен — резултатите идват от YouTube Music.',
@@ -530,7 +530,7 @@ export default {
     pausedTitle: 'Изтеглянията са на пауза',
     pausedBody: 'Няма да започват нови изтегляния, докато не продължиш.',
     pausedKept:
-      'Чакащите песни остават в опашката, дори ако Downtify се рестартира или обнови.',
+      'Чакащите песни остават в опашката, дори ако Soundkeep се рестартира или обнови.',
     emptyTitle: 'Опашката е празна',
     emptyBody:
       'Потърси музика или постави линк — изтеглянията се показват тук.',
@@ -605,7 +605,7 @@ export default {
     noMatchesHint: 'Опитай с друг филтър.',
     clearFilters: 'Изчисти филтрите',
     loadFailed: 'Библиотеката не може да се зареди',
-    loadFailedHint: 'Провери дали Downtify работи и опитай отново.',
+    loadFailedHint: 'Провери дали Soundkeep работи и опитай отново.',
     maybeDeleted: 'Може да е изтрит или преименуван.',
     backToLibrary: 'Обратно към библиотеката',
     selectAll: 'Избери всички',
@@ -648,7 +648,7 @@ export default {
     replaceAudio: 'Use verified Deemix recordings',
     replaceAudioHint:
       'Match the exact artist, title and album. Keep music in the Deemix folder. Ambiguous matches leave originals untouched. This scan replaces audio instead of retagging it.',
-    deleteOriginals: 'Remove old Downtify audio after import',
+    deleteOriginals: 'Remove old Soundkeep audio after import',
     deleteOriginalsHint:
       'Only remove each verified original after playlists, likes and playback references are updated. External files and sidecars are never removed.',
     replacementProgress:
@@ -660,7 +660,7 @@ export default {
     subtitle:
       'Подобрете музиката, която вече сте изтеглили, вместо да я теглите отново.',
     intro:
-      'Downtify преглежда всяко парче в библиотеката ви и поправя онези, които по-стара версия е оставила назад: малки обложки, липсващи текстове, непълни етикети.',
+      'Soundkeep преглежда всяко парче в библиотеката ви и поправя онези, които по-стара версия е оставила назад: малки обложки, липсващи текстове, непълни етикети.',
     audioNote:
       'Аудиофайловете никога не се подменят: обновяват се само обложки, текстове и етикети. Парче, изтеглено от грешен източник, остава както е — изтрийте го и го изтеглете отново.',
     safeNote:
@@ -692,7 +692,7 @@ export default {
       'Търси текст за парчетата, които нямат, през списъка ви с доставчици, и вгражда намереното.',
     metadata: 'Обнови етикетите',
     metadataHint:
-      'Попълва албум, изпълнител на албума, дата на издаване и номер на парчето от Spotify. Само за парчета, чието парче в Spotify Downtify още познава.',
+      'Попълва албум, изпълнител на албума, дата на издаване и номер на парчето от Spotify. Само за парчета, чието парче в Spotify Soundkeep още познава.',
     tracksAffected: { one: '{count} парче', other: '{count} парчета' },
     options: 'Настройки',
     artworkMin: 'Подобри обложките под',
@@ -705,7 +705,7 @@ export default {
     preferYoutube: 'Предпочитай YouTube Music',
     recheck: 'Не проверявай парче отново за',
     recheckHint:
-      'Наскоро проверено парче се пропуска при следващото сканиране. По-нов Downtify винаги проверява всичко отначало.',
+      'Наскоро проверено парче се пропуска при следващото сканиране. По-нов Soundkeep винаги проверява всичко отначало.',
     recheckDays: { one: '{count} ден', other: '{count} дни' },
     recheckNever: 'Винаги проверявай всички парчета',
     start: 'Започни',
@@ -777,7 +777,7 @@ export default {
     estimatedNote:
       'Преди {date} размерът е оценен по датите на песните, които все още са в библиотеката, така че изтритите оттогава не са включени.',
     allEstimatedNote:
-      'Отсега нататък Downtify записва размера на библиотеката всеки час. По-ранните дни са оценени по датите на песните, които все още са в библиотеката.',
+      'Отсега нататък Soundkeep записва размера на библиотеката всеки час. По-ранните дни са оценени по датите на песните, които все още са в библиотеката.',
     addedPerDay: 'Добавено на ден',
     addedPerWeek: 'Добавено на седмица',
     sourcesTitle: 'По източник',
@@ -816,11 +816,11 @@ export default {
     downloadedBySource: 'Изтеглено по източник · {size}',
     noDownloads: 'Нищо не е изтеглено през този период.',
     logEmptyNote:
-      'Все още няма преброени изтегляния: Downtify ги брои от тази версия нататък.',
+      'Все още няма преброени изтегляния: Soundkeep ги брои от тази версия нататък.',
     logSinceNote: 'Изтеглянията се броят от {date}.',
     cleanupTitle: 'Може да се почисти',
     cleanupHint:
-      'Място, за което Downtify може да каже, че е излишно или останало. Оттук нищо не се изтрива.',
+      'Място, за което Soundkeep може да каже, че е излишно или останало. Оттук нищо не се изтрива.',
     duplicatesTitle: 'Дублирани песни',
     duplicatesHint:
       '{exact} съхранени два пъти като един и същ файл, {likely} вероятно същата песен от друг източник. Размерът е колко би се освободило, ако се запази само най-голямото копие.',
@@ -830,7 +830,7 @@ export default {
     },
     workingTitle: 'Работни копия на slskd',
     workingHint:
-      'Прехвърляния от Soulseek, останали в папката на slskd, след като Downtify ги е копирал в библиотеката.',
+      'Прехвърляния от Soulseek, останали в папката на slskd, след като Soundkeep ги е копирал в библиотеката.',
     workingInPlace:
       'Файловете на slskd остават на място, така че папката на slskd е част от библиотеката.',
     leftoversTitle: 'Останали временни файлове',
@@ -839,7 +839,7 @@ export default {
     orphansHint:
       'Файлове с текстове и обложки на албуми, чиито песни вече ги няма.',
     foldersTitle: 'Папки',
-    foldersHint: 'Всичко в папките, в които пише Downtify, по вид.',
+    foldersHint: 'Всичко в папките, в които пише Soundkeep, по вид.',
     rescan: 'Сканирай отново',
     scanFailed: 'Папките не можаха да се сканират.',
     scanning: 'Сканиране на папките…',
@@ -949,7 +949,7 @@ export default {
       unavailable: 'Диагностиката не е налична за този плейлист.',
       items: {
         spotify_tracks: 'Песни в Spotify',
-        downloaded: 'Изтеглени от Downtify',
+        downloaded: 'Изтеглени от Soundkeep',
         physical_files: 'Намерени файлове',
         track_index: 'Съответствия в TrackIndex',
         monitor_history: 'История на Monitor',
@@ -1072,8 +1072,8 @@ export default {
     karaoke: 'Караоке',
     karaokeWindow: 'Отваряне в нов прозорец',
     karaokeWindowBlocked:
-      'Браузърът блокира новия прозорец. Разрешете изскачащите прозорци за Downtify и опитайте отново.',
-    karaokeWaiting: 'Изчакване на песен от главния прозорец на Downtify',
+      'Браузърът блокира новия прозорец. Разрешете изскачащите прозорци за Soundkeep и опитайте отново.',
+    karaokeWaiting: 'Изчакване на песен от главния прозорец на Soundkeep',
     fullscreen: 'Цял екран',
     details: 'Подробности',
     playing: 'Звучи',
@@ -1285,9 +1285,9 @@ export default {
     tileSharedHint: '{size}, и в други наблюдения, пазят се веднъж',
     tileFailing: 'С грешка',
     unknownNote: {
-      one: '{count} песен е добавена, преди Downtify да записва как песните влизат в наблюдение.',
+      one: '{count} песен е добавена, преди Soundkeep да записва как песните влизат в наблюдение.',
       other:
-        '{count} песни са добавени, преди Downtify да записва как песните влизат в наблюдение.',
+        '{count} песни са добавени, преди Soundkeep да записва как песните влизат в наблюдение.',
     },
     missingNote: {
       one: '{count} песен, записана от това наблюдение, вече не е на диска.',
@@ -1318,8 +1318,8 @@ export default {
       other: '{count} дойдоха с първата му проверка',
     },
     periodUnknown: {
-      one: '{count} от тях е записана, преди Downtify да записва как',
-      other: '{count} от тях са записани, преди Downtify да записва как',
+      one: '{count} от тях е записана, преди Soundkeep да записва как',
+      other: '{count} от тях са записани, преди Soundkeep да записва как',
     },
     barsPerDay: 'Нови песни на ден',
     barsPerWeek: 'Нови песни на седмица',
@@ -1350,7 +1350,7 @@ export default {
     body: 'Наблюденията на плейлисти, които са я донесли в библиотеката ви.',
     failed: 'Не можа да се зареди откъде е дошла тази песен.',
     firstTitle: 'Първо изтеглена от',
-    none: 'Никое наблюдение не я е изтеглило: изтеглена е ръчно или преди Downtify да записва това.',
+    none: 'Никое наблюдение не я е изтеглило: изтеглена е ръчно или преди Soundkeep да записва това.',
     otherAccount: 'Наблюдение на друг акаунт',
     backfill: 'Първа проверка',
     estimated: 'Вероятно',
@@ -1401,7 +1401,7 @@ export default {
     detach: 'Откачи от източника',
     detachTitle: 'Да се откачи ли „{name}“ от източника?',
     detachBody:
-      'Ще можеш да добавяш и премахваш песни. Песните остават както са, но Downtify спира да поддържа плейлиста синхронизиран със Spotify или YouTube Music и премахва следенето му, ако има такова.',
+      'Ще можеш да добавяш и премахваш песни. Песните остават както са, но Soundkeep спира да поддържа плейлиста синхронизиран със Spotify или YouTube Music и премахва следенето му, ако има такова.',
     detached: '„{name}“ вече може да се редактира',
     by: 'от {owner}',
     sharedWithCount: {
@@ -1420,7 +1420,7 @@ export default {
   settings: {
     apps: 'Приложения',
     title: 'Настройки',
-    subtitle: 'Как Downtify намира, изтегля и тагва музиката ти.',
+    subtitle: 'Как Soundkeep намира, изтегля и тагва музиката ти.',
     sections: 'Раздели',
     general: 'Общи',
     sources: 'Аудио източници',
@@ -1485,7 +1485,7 @@ export default {
       'Keep audio, artwork and lyrics in the shared Deemix folder, without rewriting its tags. Configure a private ARL file on the server; do not paste it here.',
     deemixUrl: 'Deemix server URL',
     deemixRemote: 'Download folder inside Deemix',
-    deemixLocal: 'Same folder inside Downtify (read-only is supported)',
+    deemixLocal: 'Same folder inside Soundkeep (read-only is supported)',
     deemixQuality: 'Audio quality',
     slskdTitle: 'slskd',
     slskdFormats: 'Приоритет на форматите',
@@ -1509,7 +1509,7 @@ export default {
     slskdUrl: 'URL на сървъра',
     slskdKey: 'API ключ',
     slskdFolder: 'Папка за изтегляния на slskd',
-    slskdFolderHint: 'Пътят в контейнера на Downtify, не на хоста.',
+    slskdFolderHint: 'Пътят в контейнера на Soundkeep, не на хоста.',
     slskdTimeout: 'Общо време за изчакване',
     slskdQueuedTimeout: 'Време за изчакване в опашка',
     slskdInPlace: 'Остави файловете в папката на slskd',
@@ -1602,7 +1602,7 @@ export default {
     lyricsNeteaseHint: 'Голям каталог, обикновено синхронизиран',
     navidromeTitle: 'Navidrome',
     navidromeHint:
-      'Копира изтеглените плейлисти в Navidrome. Музикалната му папка трябва да включва изтеглянията на Downtify.',
+      'Копира изтеглените плейлисти в Navidrome. Музикалната му папка трябва да включва изтеглянията на Soundkeep.',
     navidromeEnabled: 'Използвай Navidrome',
     navidromeEnabledHint: 'Нужни са URL на сървъра, потребител и парола.',
     navidromeUrl: 'URL на сървъра',
@@ -1611,7 +1611,7 @@ export default {
     navidromeAdminUser: 'Администратор',
     navidromeAdminPassword: 'Парола на администратора',
     navidromeAdminHint:
-      'По избор — позволява на Downtify да стартира сканиране, за да се появяват новите песни по-бързо.',
+      'По избор — позволява на Soundkeep да стартира сканиране, за да се появяват новите песни по-бързо.',
     test: {
       connection_not_deemix: 'The server is not a compatible Deemix instance.',
       quality_unavailable:
@@ -1621,12 +1621,12 @@ export default {
       testing: 'Проверка…',
       needFields: 'Първо попълнете полетата по-горе.',
       requestFailed:
-        'Проверката не можа да се изпълни. Достъпен ли е още Downtify?',
+        'Проверката не можа да се изпълни. Достъпен ли е още Soundkeep?',
       connected: 'Свързан с {server}.',
       unknown: 'Неочакван отговор от проверката ({code}).',
       config_missing: 'Първо попълнете задължителните полета.',
       connection_unreachable:
-        'Няма достъп до {url}. Проверете адреса и дали сървърът работи и е достъпен от Downtify.',
+        'Няма достъп до {url}. Проверете адреса и дали сървърът работи и е достъпен от Soundkeep.',
       connection_timeout: '{url} не отговори навреме.',
       connection_bad_url:
         'Този адрес не е валиден. Започнете с http:// или https://.',
@@ -1644,9 +1644,9 @@ export default {
       soulseek_ok: 'slskd е свързан със Soulseek.',
       soulseek_offline:
         'slskd не е свързан със Soulseek. Няма да намира нищо, докато не се свърже.',
-      folder_ok: 'Downtify може да чете {detail}.',
+      folder_ok: 'Soundkeep може да чете {detail}.',
       folder_missing:
-        'Downtify не може да чете {detail}. Това трябва да е папката, в която slskd изтегля, монтирана в този контейнер.',
+        'Soundkeep не може да чете {detail}. Това трябва да е папката, в която slskd изтегля, монтирана в този контейнер.',
       scan_ok: 'Този акаунт може да стартира сканиране на библиотеката.',
       scan_not_admin:
         'Този акаунт не може да стартира сканиране на библиотеката — Navidrome го позволява само на администратори. Попълнете потребителското име и паролата на администратора, за да се показват новите песни по-рано.',
@@ -1668,7 +1668,7 @@ export default {
       'Пази извлечените обложки на диска за по-бързо зареждане. Заема допълнително място.',
     reconcile: 'Поправи пътищата в библиотеката',
     reconcileHint:
-      'Местил или преименувал си файлове извън Downtify? Това обновява запазените пътища и презаписва M3U и Navidrome плейлистите, ако са включени.',
+      'Местил или преименувал си файлове извън Soundkeep? Това обновява запазените пътища и презаписва M3U и Navidrome плейлистите, ако са включени.',
     reconcileButton: 'Поправи пътищата',
     reconcilePaths: {
       one: 'Обновен е {count} път.',
@@ -1687,9 +1687,9 @@ export default {
     reconcileError: 'Пътищата в библиотеката не могат да бъдат поправени.',
     externalLibraryTitle: 'Съществуващи музикални папки',
     externalLibraryHint:
-      'Папки с аудио, което вече имате. Файловете остават където са; Downtify чете етикетите и ги подрежда към съвпадащите изпълнители. В Docker използвайте пътя в контейнера и монтирайте папката на хоста.',
+      'Папки с аудио, което вече имате. Файловете остават където са; Soundkeep чете етикетите и ги подрежда към съвпадащите изпълнители. В Docker използвайте пътя в контейнера и монтирайте папката на хоста.',
     externalLibraryFolder: 'Папка',
-    externalLibraryFolderHint: 'Пътят в контейнера на Downtify, не на хоста.',
+    externalLibraryFolderHint: 'Пътят в контейнера на Soundkeep, не на хоста.',
     externalLibraryPlaceholder: '/music/collection',
     externalLibraryAdd: 'Добавяне на папка',
     externalLibraryRemove: 'Премахване на папка',
@@ -1737,7 +1737,7 @@ export default {
     version: 'Версия {version}',
     upToDate: 'Актуално',
     source: 'Изходен код',
-    sourceHint: 'Downtify е с отворен код.',
+    sourceHint: 'Soundkeep е с отворен код.',
     docs: 'Документация',
     docsHint: 'Инсталация, настройки и справка за API.',
     openDocs: 'Отвори документацията',
@@ -1751,7 +1751,7 @@ export default {
       'Как може да се достъпи този сървър. Виждат го само администраторите.',
     experimental: 'Експериментално',
     experimentalHint:
-      'Мобилните приложения още се разработват. Приложението за Android още няма публикувана версия, а начинът на сдвояване и поточно предаване може да се промени между версиите на Downtify.',
+      'Мобилните приложения още се разработват. Приложението за Android още няма публикувана версия, а начинът на сдвояване и поточно предаване може да се промени между версиите на Soundkeep.',
   },
   shortcuts: {
     title: 'Клавишни комбинации',
@@ -1774,7 +1774,7 @@ export default {
     help: 'Покажи комбинациите',
   },
   auth: {
-    signInTitle: 'Вход в Downtify',
+    signInTitle: 'Вход в Soundkeep',
     signInBody: 'Влезте с потребителското си име и парола.',
     signInBodyOidcOnly: 'Влезте чрез доставчика си на идентичност.',
     username: 'Потребителско име',
@@ -1788,7 +1788,7 @@ export default {
     tooMany: 'Твърде много опити. Изчакайте няколко минути и опитайте отново.',
     forgotHint:
       'Забравихте паролата на администратора? Изпълнете „python main.py auth-reset“ на сървъра.',
-    noticeTitle: 'Downtify вече има потребителски акаунти',
+    noticeTitle: 'Soundkeep вече има потребителски акаунти',
     noticeBody:
       'Вече всеки влиза с потребителско име и парола, а администратор може да създава акаунти за други хора в Настройки → Потребители. Влезте с:',
     noticeKeptPassword: 'паролата, която зададохте преди',
@@ -1797,7 +1797,7 @@ export default {
   },
   apps: {
     serverGroup: 'Този сървър',
-    serverGroupHint: 'Как приложенията на Downtify виждат този сървър.',
+    serverGroupHint: 'Как приложенията на Soundkeep виждат този сървър.',
     serverName: 'Име на сървъра',
     serverNameHint:
       'Показва се в приложенията и когато търсят сървъри в мрежата ви.',
@@ -1821,7 +1821,7 @@ export default {
     signOutEverywhereTitle: 'Изход навсякъде?',
     pairTitle: 'Сдвояване на телефон',
     pairBody:
-      'В приложението Downtify изберете „Сканиране на кода“ и насочете камерата тук.',
+      'В приложението Soundkeep изберете „Сканиране на кода“ и насочете камерата тук.',
     qrLabel: 'QR код за сдвояване',
     orTypeCode: 'или въведете този код',
     expiresIn: 'Изтича след {time}',
@@ -1836,7 +1836,7 @@ export default {
       'Прекратява сдвояването на всичките ви приложения и ви отписва от всеки браузър, включително този.',
     signOutEverywhereBody:
       'Приложенията ви трябва да се сдвоят отново, а вие трябва да влезете отново във всеки браузър.',
-    androidGroup: 'Downtify за Android',
+    androidGroup: 'Soundkeep за Android',
     androidHint:
       'Приложение, което разглежда и възпроизвежда библиотеката ви направо от този сървър.',
     androidBody:
@@ -1844,7 +1844,7 @@ export default {
     androidUnreleased:
       'Още не е публикувана нито една версия: приложението е в процес на разработка, така че засега няма какво да се инсталира.',
     androidRepo: 'Вижте хранилището',
-    iosGroup: 'Downtify за iOS',
+    iosGroup: 'Soundkeep за iOS',
     iosHint:
       'Приложение за iPhone и iPad за разглеждане и слушане на библиотеката от този сървър.',
     iosBody:
@@ -1875,7 +1875,7 @@ export default {
   },
   port: {
     label: 'Порт',
-    hint: 'Портът, на който слуша Downtify. Прилага се при стартиране на сървъра или веднага с „Запазване и рестарт“.',
+    hint: 'Портът, на който слуша Soundkeep. Прилага се при стартиране на сървъра или веднага с „Запазване и рестарт“.',
     locked:
       'Зададен от {source} на сървъра. Премахнете го, за да изберете порта тук.',
     save: 'Запазване',
@@ -1885,18 +1885,18 @@ export default {
     saved: 'Порт {port} е запазен за следващото стартиране',
     invalid: 'Използвайте порт от {min} до {max}',
     dockerWarning:
-      'Downtify работи в Docker: сменете пренасочването на портове към същия порт (ports: НОВ:НОВ) и създайте контейнера наново или използвайте network_mode: host - иначе Downtify става недостъпен. Задаването на DOWNTIFY_PORT връща стария порт.',
+      'Soundkeep работи в Docker: сменете пренасочването на портове към същия порт (ports: НОВ:НОВ) и създайте контейнера наново или използвайте network_mode: host - иначе Soundkeep става недостъпен. Задаването на DOWNTIFY_PORT връща стария порт.',
     proxyWarning:
-      'Достъпвате Downtify през друг адрес (обратно прокси или пренасочване на портове): насочете и него към новия порт.',
+      'Достъпвате Soundkeep през друг адрес (обратно прокси или пренасочване на портове): насочете и него към новия порт.',
     confirmTitle: 'Рестарт на порт {port}?',
     confirmBody:
       'Текущите изтегляния спират, а всички страници и приложения се свързват отново на новия порт.',
     restartingTitle: 'Рестарт на порт {port}',
     restartingBody:
-      'Изчакване Downtify да се върне… Тази страница сама ще отвори новия адрес.',
+      'Изчакване Soundkeep да се върне… Тази страница сама ще отвори новия адрес.',
     unreachable:
-      'Downtify още не отговаря на новия порт. Опитайте новия адрес или вижте логовете на сървъра.',
-    openNew: 'Downtify се рестартира. Отворете го на новия адрес:',
+      'Soundkeep още не отговаря на новия порт. Опитайте новия адрес или вижте логовете на сървъра.',
+    openNew: 'Soundkeep се рестартира. Отворете го на новия адрес:',
   },
   account: {
     title: 'Акаунт',
@@ -1921,7 +1921,7 @@ export default {
     needsAdmin: 'Само администратор може да направи това',
     defaultPasswordTitle: 'Сменете паролата по подразбиране',
     defaultPasswordBody:
-      '{name} е влязъл с паролата по подразбиране, която знае всеки, който познава Downtify. Сменете я в Настройки → Общи.',
+      '{name} е влязъл с паролата по подразбиране, която знае всеки, който познава Soundkeep. Сменете я в Настройки → Общи.',
     later: 'По-късно',
     changePassword: 'Смяна на паролата',
   },
@@ -2134,7 +2134,7 @@ export default {
     kicker: 'Подкаст',
     notFound: 'Вече не сте абонирани за това предаване',
     noEpisodesTitle: 'Все още няма епизоди',
-    noEpisodesBody: 'Downtify проверява тази емисия по свой график.',
+    noEpisodesBody: 'Soundkeep проверява тази емисия по свой график.',
     download: 'Изтегляне на епизод',
     downloadFailed: 'Епизодът не можа да бъде изтеглен',
     played: 'Изслушан',

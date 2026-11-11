@@ -5,13 +5,16 @@
     viewBox="0 0 28 28"
     class="shrink-0"
     role="img"
-    aria-label="Downtify"
+    aria-label="Soundkeep"
   >
     <circle cx="14" cy="14" r="14" class="fill-accent" />
-    <path
-      d="M9.5 8.2c3-.3 6-.3 9 0v3.1h2.6c.4 0 .6.3.5.6-1.5 5-5.5 9-7 10.4a.9.9 0 0 1-1.2 0C11.9 20.9 7.9 16.9 6.4 11.9c-.1-.3.1-.6.5-.6h2.6z"
-      class="fill-bg"
-    />
+    <g class="fill-bg">
+      <ellipse cx="9.6" cy="19.2" rx="3" ry="2.3" />
+      <ellipse cx="17.4" cy="17.2" rx="3" ry="2.3" />
+      <polygon points="11.2,8.6 20.6,6.4 20.6,9 11.2,11.2" />
+      <rect x="11.2" y="8.6" width="1.8" height="10.4" />
+      <rect x="18.8" y="6.8" width="1.8" height="10.2" />
+    </g>
   </svg>
 </template>
 
